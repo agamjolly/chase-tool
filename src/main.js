@@ -16,65 +16,51 @@ app.innerHTML = `
         <label class="search search--hero">
           <span class="sr-only">Search hotels</span>
           <input id="searchInput" type="search" placeholder="Search by property, city, country, or brand" />
+          <button class="search__button" id="searchButton" type="button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </button>
           <div id="autocomplete" class="autocomplete autocomplete--hidden"></div>
         </label>
 
-        <div class="view-switch" id="viewSwitch"></div>
+        <div class="topbar__actions">
+          <button class="refine-toggle" id="refineToggle" type="button">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="9" cy="6" r="2" fill="currentColor"/><circle cx="16" cy="12" r="2" fill="currentColor"/><circle cx="11" cy="18" r="2" fill="currentColor"/></svg>
+            Refine
+            <span class="refine-toggle__badge" id="refineBadge"></span>
+          </button>
+          <div class="view-switch" id="viewSwitch"></div>
+        </div>
       </div>
 
-      <div class="topbar__row topbar__row--sub">
-        <div class="topbar__filters">
-          <span class="topbar__label">Filters</span>
-          <div class="segmented segmented--top" id="offerFilters"></div>
-        </div>
+      <div class="topbar__row topbar__row--filters" id="filterDrawer">
+        <div class="filter-drawer" id="filterDrawerInner"></div>
       </div>
     </header>
 
     <main class="content">
       <section id="listView" class="content-view">
         <header class="editorial-hero">
-          <div class="editorial-hero__row">
-            <div class="editorial-hero__copy">
-              <h2>Browse The Edit by country</h2>
-              <p>
-                <span id="resultsCount">0</span> hotels arranged destination-first, with the map
-                reserved for geographic scanning.
-              </p>
-            </div>
-          </div>
+          <h2>Destinations</h2>
+          <span class="editorial-hero__count"><span id="resultsCount">0</span> properties</span>
         </header>
         <div id="countryList" class="country-list"></div>
       </section>
 
       <section id="mapView" class="content-view content-view--hidden">
-        <div class="content-header content-header--map">
-          <div>
-            <p class="eyebrow">Map View</p>
-            <h2>Nightly-price style map markers</h2>
-          </div>
-          <p class="content-header__note">
-            Hotel cards open a Google search in a new tab. Marker prices are visual previews, not
-            live Chase Travel quotes.
-          </p>
-        </div>
         <div class="map-frame">
           <div id="map"></div>
           <aside class="map-legend">
-            <div>
-              <span class="legend__swatch legend__swatch--edit"></span>
-              <span>The Edit property</span>
-            </div>
-            <div>
-              <span class="legend__swatch legend__swatch--partner"></span>
-              <span>Official $250 partner overlap</span>
-            </div>
-            <p>Prices shown on the map are preview values.</p>
+            <span class="legend__chip"><span class="legend__dot legend__dot--edit"></span> The Edit</span>
+            <span class="legend__chip"><span class="legend__dot legend__dot--partner"></span> $250 Partner</span>
+            <span class="legend__note">Preview prices</span>
           </aside>
         </div>
       </section>
     </main>
   </div>
 `;
+
+const COUNTRIES_PER_PAGE = 5;
 
 const OFFER_FILTERS = [
   { key: 'all', label: 'All hotels' },
@@ -94,21 +80,33 @@ const state = {
   search: '',
   draftSearch: '',
   viewMode: 'list',
+  visibleCountries: COUNTRIES_PER_PAGE,
   autocompleteOpen: false,
   activeSuggestionIndex: -1,
   suggestions: [],
+  filtersExpanded: false,
+  filters: {
+    starRating: null,
+    priceRange: [335, 1250],
+    partnerBrands: [],
+    chaseConfirmed: false,
+    tripAdvisorMin: null,
+  },
 };
 
 const elements = {
   topbar: document.querySelector('#topbar'),
   viewSwitch: document.querySelector('#viewSwitch'),
-  offerFilters: document.querySelector('#offerFilters'),
   searchInput: document.querySelector('#searchInput'),
   autocomplete: document.querySelector('#autocomplete'),
   resultsCount: document.querySelector('#resultsCount'),
   countryList: document.querySelector('#countryList'),
   listView: document.querySelector('#listView'),
   mapView: document.querySelector('#mapView'),
+  refineToggle: document.querySelector('#refineToggle'),
+  refineBadge: document.querySelector('#refineBadge'),
+  filterDrawer: document.querySelector('#filterDrawer'),
+  filterDrawerInner: document.querySelector('#filterDrawerInner'),
 };
 
 let map;
@@ -259,7 +257,7 @@ function buildSuggestions(query) {
     (item) => `${item.type}:${item.value}`,
   );
 
-  return [...hotels, ...cities, ...countries, ...groups].slice(0, 8);
+  return [...countries, ...cities, ...hotels, ...groups].slice(0, 8);
 }
 
 function closeAutocomplete() {
@@ -319,15 +317,16 @@ function renderAutocomplete() {
 }
 
 function renderViewSwitch() {
-  elements.viewSwitch.innerHTML = VIEW_MODES.map(
-    (view) => `
-      <button class="segmented__button ${state.viewMode === view.key ? 'is-active' : ''}" data-view="${view.key}">
-        ${view.label}
-      </button>
-    `,
-  ).join('');
+  const isMap = state.viewMode === 'map';
+  elements.viewSwitch.innerHTML = `
+    <div class="view-toggle" role="radiogroup" aria-label="View mode">
+      <button class="view-toggle__option ${!isMap ? 'is-active' : ''}" data-view="list" role="radio" aria-checked="${!isMap}">List</button>
+      <button class="view-toggle__option ${isMap ? 'is-active' : ''}" data-view="map" role="radio" aria-checked="${isMap}">Map</button>
+      <span class="view-toggle__slider" style="transform: translateX(${isMap ? '100%' : '0'})"></span>
+    </div>
+  `;
 
-  elements.viewSwitch.querySelectorAll('button').forEach((button) => {
+  elements.viewSwitch.querySelectorAll('.view-toggle__option').forEach((button) => {
     button.addEventListener('click', () => {
       state.viewMode = button.dataset.view;
       renderViewMode();
@@ -335,22 +334,6 @@ function renderViewSwitch() {
   });
 }
 
-function renderOfferFilters() {
-  elements.offerFilters.innerHTML = OFFER_FILTERS.map(
-    (filter) => `
-      <button class="segmented__button ${filter.key === state.offerFilter ? 'is-active' : ''}" data-filter="${filter.key}">
-        ${filter.label}
-      </button>
-    `,
-  ).join('');
-
-  elements.offerFilters.querySelectorAll('button').forEach((button) => {
-    button.addEventListener('click', () => {
-      state.offerFilter = button.dataset.filter;
-      sync();
-    });
-  });
-}
 
 function matchesFilters(item) {
   const haystack = [
@@ -367,7 +350,212 @@ function matchesFilters(item) {
 
   if (state.search && !haystack.includes(state.search.toLowerCase())) return false;
   if (state.offerFilter === 'select-credit' && !item.partnerGroup) return false;
+
+  const f = state.filters;
+  if (f.starRating !== null && (item.starRating || 0) < f.starRating) return false;
+  if (item.priceValue != null && (item.priceValue < f.priceRange[0] || item.priceValue > f.priceRange[1])) return false;
+  if (f.partnerBrands.length > 0 && !f.partnerBrands.includes(item.partnerGroup)) return false;
+  if (f.chaseConfirmed && !item.publiclyConfirmedByChase) return false;
+  if (f.tripAdvisorMin !== null && (item.tripAdvisorRating || 0) < f.tripAdvisorMin) return false;
+
   return true;
+}
+
+function activeFilterCount() {
+  const f = state.filters;
+  let count = 0;
+  if (f.starRating !== null) count++;
+  if (f.priceRange[0] !== 335 || f.priceRange[1] !== 1250) count++;
+  if (f.partnerBrands.length > 0) count++;
+  if (f.chaseConfirmed) count++;
+  if (f.tripAdvisorMin !== null) count++;
+  return count;
+}
+
+function resetFilters() {
+  state.filters = {
+    starRating: null,
+    priceRange: [335, 1250],
+    partnerBrands: [],
+    chaseConfirmed: false,
+    tripAdvisorMin: null,
+  };
+  state.filtersExpanded = false;
+  renderFilterDrawer();
+  sync();
+}
+
+const STAR_OPTIONS = [
+  { value: 5, label: '5★' },
+  { value: 4.5, label: '4.5+' },
+  { value: 4, label: '4+' },
+  { value: null, label: 'All' },
+];
+
+const TA_OPTIONS = [
+  { value: 4.5, label: '4.5+' },
+  { value: 4, label: '4+' },
+  { value: null, label: 'Any' },
+];
+
+const PARTNER_BRANDS = [
+  'IHG Hotels & Resorts',
+  'Montage Hotels & Resorts',
+  'Pendry Hotels & Resorts',
+  'Omni Hotels & Resorts',
+  'Virgin Hotels',
+  'Minor Hotels',
+  'Pan Pacific Hotels Group',
+];
+
+const contentEl = document.querySelector('.content');
+new ResizeObserver(() => {
+  contentEl.style.paddingTop = `${elements.topbar.offsetHeight + 24}px`;
+}).observe(elements.topbar);
+
+function renderFilterDrawer() {
+  const f = state.filters;
+  const count = activeFilterCount();
+
+  // Update badge
+  elements.refineBadge.textContent = count > 0 ? count : '';
+  elements.refineBadge.classList.toggle('is-visible', count > 0);
+
+  // Update toggle state
+  elements.refineToggle.classList.toggle('is-active', state.filtersExpanded);
+  elements.filterDrawer.classList.toggle('is-expanded', state.filtersExpanded);
+
+  if (!state.filtersExpanded) {
+    elements.filterDrawerInner.innerHTML = '';
+
+    return;
+  }
+
+  const starPills = STAR_OPTIONS.map((opt) => {
+    const active = f.starRating === opt.value;
+    return `<button class="filter-pill ${active ? 'is-active' : ''}" data-filter="star" data-value="${opt.value}">${opt.label}</button>`;
+  }).join('');
+
+  const taPills = TA_OPTIONS.map((opt) => {
+    const active = f.tripAdvisorMin === opt.value;
+    return `<button class="filter-pill ${active ? 'is-active' : ''}" data-filter="ta" data-value="${opt.value}">${opt.label}</button>`;
+  }).join('');
+
+  const brandPills = PARTNER_BRANDS.map((brand) => {
+    const short = brand.replace(/ Hotels?.*$/, '');
+    const active = f.partnerBrands.includes(brand);
+    return `<button class="filter-pill ${active ? 'is-active' : ''}" data-filter="brand" data-value="${escapeHtml(brand)}">${escapeHtml(short)}</button>`;
+  }).join('');
+
+  const confirmedActive = f.chaseConfirmed;
+  const priceActive = f.priceRange[0] !== 335 || f.priceRange[1] !== 1250;
+
+  const offerPills = OFFER_FILTERS.map((opt) => {
+    const active = state.offerFilter === opt.key;
+    return `<button class="filter-pill ${active ? 'is-active' : ''}" data-filter="offer" data-value="${opt.key}">${escapeHtml(opt.label)}</button>`;
+  }).join('');
+
+  elements.filterDrawerInner.innerHTML = `
+    <div class="filter-group">
+      <span class="filter-group__label">Collection</span>
+      <div class="filter-group__pills">${offerPills}</div>
+    </div>
+    <div class="filter-group filter-group--separator"></div>
+    <div class="filter-group">
+      <span class="filter-group__label">Stars</span>
+      <div class="filter-group__pills">${starPills}</div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-group__label">Price</span>
+      <div class="filter-group__pills">
+        <div class="price-range">
+          <input type="number" class="price-range__text" min="335" max="1250" step="25" value="${f.priceRange[0]}" data-filter="price-text-min" />
+          <input type="range" class="price-range__input" min="335" max="1250" step="25" value="${f.priceRange[0]}" data-filter="price-min" />
+          <span class="price-range__sep">–</span>
+          <input type="range" class="price-range__input" min="335" max="1250" step="25" value="${f.priceRange[1]}" data-filter="price-max" />
+          <input type="number" class="price-range__text" min="335" max="1250" step="25" value="${f.priceRange[1]}" data-filter="price-text-max" />
+        </div>
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-group__label">Brand</span>
+      <div class="filter-group__pills">${brandPills}</div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-group__label">TripAdvisor</span>
+      <div class="filter-group__pills">${taPills}</div>
+    </div>
+    <div class="filter-group">
+      <button class="filter-pill ${confirmedActive ? 'is-active' : ''}" data-filter="confirmed">Chase Confirmed</button>
+    </div>
+    ${count > 0 ? '<button class="filter-clear" data-filter="clear">Clear all</button>' : ''}
+  `;
+
+  // Wire filter pill clicks
+  elements.filterDrawerInner.querySelectorAll('[data-filter]').forEach((el) => {
+    const type = el.dataset.filter;
+
+    if (type === 'offer') {
+      el.addEventListener('click', () => {
+        state.offerFilter = el.dataset.value;
+        renderFilterDrawer();
+        sync();
+      });
+    } else if (type === 'star') {
+      el.addEventListener('click', () => {
+        const val = el.dataset.value === 'null' ? null : Number(el.dataset.value);
+        state.filters.starRating = state.filters.starRating === val ? null : val;
+        renderFilterDrawer();
+        sync();
+      });
+    } else if (type === 'ta') {
+      el.addEventListener('click', () => {
+        const val = el.dataset.value === 'null' ? null : Number(el.dataset.value);
+        state.filters.tripAdvisorMin = state.filters.tripAdvisorMin === val ? null : val;
+        renderFilterDrawer();
+        sync();
+      });
+    } else if (type === 'brand') {
+      el.addEventListener('click', () => {
+        const brand = el.dataset.value;
+        const idx = state.filters.partnerBrands.indexOf(brand);
+        if (idx >= 0) state.filters.partnerBrands.splice(idx, 1);
+        else state.filters.partnerBrands.push(brand);
+        renderFilterDrawer();
+        sync();
+      });
+    } else if (type === 'confirmed') {
+      el.addEventListener('click', () => {
+        state.filters.chaseConfirmed = !state.filters.chaseConfirmed;
+        renderFilterDrawer();
+        sync();
+      });
+    } else if (type === 'clear') {
+      el.addEventListener('click', resetFilters);
+    } else if (type === 'price-min' || type === 'price-max' || type === 'price-text-min' || type === 'price-text-max') {
+      const syncPrice = () => {
+        const d = elements.filterDrawerInner;
+        const minSlider = d.querySelector('[data-filter="price-min"]');
+        const maxSlider = d.querySelector('[data-filter="price-max"]');
+        const minText = d.querySelector('[data-filter="price-text-min"]');
+        const maxText = d.querySelector('[data-filter="price-text-max"]');
+        const isSlider = type === 'price-min' || type === 'price-max';
+        let min = Number(isSlider ? minSlider.value : minText.value) || 335;
+        let max = Number(isSlider ? maxSlider.value : maxText.value) || 1250;
+        min = Math.max(335, Math.min(1250, min));
+        max = Math.max(335, Math.min(1250, max));
+        if (min > max) { if (type.includes('min')) min = max; else max = min; }
+        state.filters.priceRange = [min, max];
+        minSlider.value = min;
+        maxSlider.value = max;
+        minText.value = min;
+        maxText.value = max;
+      };
+      el.addEventListener('input', syncPrice);
+      el.addEventListener('change', () => { syncPrice(); sync(); });
+    }
+  });
+
 }
 
 function propertyCardMarkup(item) {
@@ -389,10 +577,8 @@ function propertyCardMarkup(item) {
       <div class="property-card__body">
         <p class="property-card__eyebrow">${escapeHtml(item.partnerGroup ? 'The Edit · Partner Group' : 'The Edit')}</p>
         <h3>${escapeHtml(item.name)}</h3>
-        <p>${escapeHtml(item.location || [item.city, item.country].filter(Boolean).join(', '))}</p>
-      </div>
-      <div class="property-card__tags">
-        ${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}
+        <p class="property-card__location">${escapeHtml(item.location || [item.city, item.country].filter(Boolean).join(', '))}</p>
+        ${tags.length ? `<p class="property-card__note">${tags.join(' · ')}</p>` : ''}
       </div>
     </button>
   `;
@@ -409,9 +595,11 @@ function renderCountryList() {
   }, new Map());
 
   const countries = [...groups.keys()].sort((a, b) => a.localeCompare(b));
+  const visible = countries.slice(0, state.visibleCountries);
+  const hasMore = countries.length > state.visibleCountries;
 
-  elements.countryList.innerHTML = countries.length
-    ? countries
+  elements.countryList.innerHTML = visible.length
+    ? visible
         .map((country) => {
           const items = groups.get(country).sort((a, b) => a.name.localeCompare(b.name));
           return `
@@ -426,7 +614,10 @@ function renderCountryList() {
             </section>
           `;
         })
-        .join('')
+        .join('') +
+        (hasMore
+          ? `<button class="load-more" id="loadMoreBtn">Load More</button>`
+          : '')
     : `<div class="empty-state">No hotels match your current filters.</div>`;
 
   elements.countryList.querySelectorAll('.property-card').forEach((card) => {
@@ -435,6 +626,14 @@ function renderCountryList() {
       if (item) openHotelSearch(item);
     });
   });
+
+  const loadMoreBtn = document.querySelector('#loadMoreBtn');
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+      state.visibleCountries += COUNTRIES_PER_PAGE;
+      renderCountryList();
+    });
+  }
 }
 
 function popupMarkup(item) {
@@ -492,9 +691,9 @@ function ensureMap() {
       sources: {
         osm: {
           type: 'raster',
-          tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+          tiles: ['https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png'],
           tileSize: 256,
-          attribution: '&copy; OpenStreetMap contributors',
+          attribution: '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         },
       },
       layers: [
@@ -511,13 +710,18 @@ function ensureMap() {
   });
 
   map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
+
+  let markerRafId = 0;
+  function scheduleMarkerUpdate() {
+    cancelAnimationFrame(markerRafId);
+    markerRafId = requestAnimationFrame(renderMarkers);
+  }
+
   map.on('load', () => {
     fitMapToItems();
     renderMarkers();
   });
-  map.on('idle', renderMarkers);
-  map.on('moveend', renderMarkers);
-  map.on('zoomend', renderMarkers);
+  map.on('moveend', scheduleMarkerUpdate);
 }
 
 function showHoverPopup(item, lngLat) {
@@ -648,18 +852,26 @@ function renderViewMode() {
 
   if (isMap) {
     ensureMap();
-    requestAnimationFrame(() => {
-      map.resize();
-      fitMapToItems();
-      renderMarkers();
-    });
+    requestAnimationFrame(() => updateMap());
   } else {
     hideHoverPopup();
   }
 }
 
+function updateMap() {
+  if (!map) return;
+  for (const [, marker] of markersOnScreen) marker.remove();
+  markersOnScreen = new Map();
+  markerCache.clear();
+  buildClusterData(state.filtered);
+  map.resize();
+  fitMapToItems();
+  renderMarkers();
+}
+
 function sync() {
-  renderOfferFilters();
+  renderFilterDrawer();
+  state.visibleCountries = COUNTRIES_PER_PAGE;
   state.filtered = state.items.filter(matchesFilters);
   state.suggestions = buildSuggestions(normalizeSearchValue(state.draftSearch));
   renderAutocomplete();
@@ -668,7 +880,7 @@ function sync() {
   buildClusterData(state.filtered);
 
   if (state.viewMode === 'map') {
-    renderViewMode();
+    updateMap();
   }
 }
 
@@ -690,6 +902,10 @@ elements.searchInput.addEventListener('input', (event) => {
   state.activeSuggestionIndex = -1;
   state.suggestions = buildSuggestions(normalizeSearchValue(state.draftSearch));
   renderAutocomplete();
+});
+
+document.querySelector('#searchButton').addEventListener('click', () => {
+  applySearch(elements.searchInput.value);
 });
 
 elements.searchInput.addEventListener('focus', () => {
@@ -746,6 +962,12 @@ document.addEventListener('click', (event) => {
 });
 
 renderViewSwitch();
+
+elements.refineToggle.addEventListener('click', () => {
+  state.filtersExpanded = !state.filtersExpanded;
+  renderFilterDrawer();
+});
+
 let topbarCondensed = false;
 
 function updateTopbarState() {
