@@ -23,11 +23,27 @@ body,
   min-height: 100%;
 }
 
+@keyframes paper-light {
+  0%   { background-color: #faf8f4; }
+  50%  { background-color: #eaeff6; }
+  100% { background-color: #faf8f4; }
+}
+
 body {
   font-family: 'Space Grotesk', sans-serif;
   color: var(--ink);
-  background:
-    linear-gradient(180deg, #faf8f4 0%, var(--paper) 40vh, var(--paper) 100%);
+  background: var(--paper);
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-color: #faf8f4;
+  animation: paper-light 30s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
 }
 
 button,
@@ -41,6 +57,8 @@ a {
 
 .page-shell {
   min-height: 100vh;
+  position: relative;
+  z-index: 1;
 }
 
 .sr-only {
@@ -74,13 +92,13 @@ a {
   flex-direction: column;
   gap: 0;
   padding: 0.5rem 0;
-  background: rgba(245, 239, 228, 0.52);
+  background: transparent;
   backdrop-filter: blur(8px);
   transition: background 180ms ease, box-shadow 180ms ease, padding 180ms ease, backdrop-filter 180ms ease;
 }
 
 .topbar.is-scrolled {
-  background: rgba(248, 244, 237, 0.72);
+  background: rgba(250, 248, 244, 0.45);
   backdrop-filter: blur(18px);
   box-shadow: 0 12px 28px rgba(20, 40, 70, 0.08);
   border-bottom: 1px solid rgba(20, 40, 70, 0.06);

@@ -1,75 +1,57 @@
 # The Edit Atlas
 
+A research-driven discovery interface for exploring hotels in Chase Travel's "The Edit" collection.
+
 ## What this is
 
-The Edit Atlas is a public-facing browsing experience for exploring hotels associated with `The Edit by Chase Travel`.
+The Edit Atlas is an independent browsing experience for the ~1,370 hotels associated with The Edit by Chase Travel. It is designed to make it easy for Chase Sapphire cardholders to scan, compare, and explore hotels across countries and destinations in a way that Chase's own portal does not support well.
 
-It is designed to feel more like a luxury travel directory than a booking tool: visual, destination-led, and easy to scan.
+The site is built around the idea that premium-card holders deserve a better way to find where their benefits apply. Chase's booking portal obscures filtering, buries credit-eligible properties, and makes side-by-side comparison difficult. This project exists to fill that gap.
 
-## Why this exists
+## What it helps users do
 
-Chase’s luxury-hotel ecosystem is not especially easy to explore in one clean, public interface.
-
-People who care about premium stays, cardmember benefits, hotel credits, and points strategy often want to do a different kind of browsing than a normal checkout flow supports. They want to:
-
-- scan where the hotels are
-- compare properties across countries and destinations
-- understand where hotel-credit opportunities may overlap
-- browse visually before they decide where to go deeper
-
-This project exists to make that kind of discovery easier.
-
-## What the intent is
-
-The intent is to build a beautiful, editorial-style interface for browsing this hotel universe in a way that feels:
-
-- more visual
-- more destination-first
-- more public and shareable
-- more useful for early-stage trip planning
-
-The goal is not to recreate the Chase Travel booking experience. The goal is to make exploration easier.
-
-## What it is trying to help users do
-
-The current experience is meant to help users:
-
-- browse hotels by country
-- switch into a map view for geographic discovery
-- search hotels, cities, countries, and relevant partner-group terms
-- identify where Chase-related hotel opportunities may exist
-- quickly jump outward to research an individual property further
+- Browse hotels by country in a clean, editorial layout
+- Switch to a map view for geographic discovery
+- Search by property name, city, country, or partner brand
+- Filter by collection type, star rating, price range, partner brand, and Tripadvisor rating
+- Identify which hotels fall under Chase's seven $250-credit partner groups
+- Quickly jump out to research any property further
 
 ## What it is not
 
-This project should be understood as a research-driven discovery interface, not an official booking product.
+This is not an official Chase product. It does not display live pricing, process bookings, or claim to represent a complete official roster of every Chase hotel-credit offer. It is a research and discovery tool built from publicly available data.
 
-That means:
+## Data
 
-- it is not an official Chase website
-- it is not currently a live booking engine
-- it does not claim to be a fully official public property roster for every Chase hotel-credit offer
-- it does not currently display live Chase Travel prices
+The hotel catalog is assembled from public research, a mirrored third-party dataset, and interpretation of Chase's publicly described partner groups. Some information is directional rather than officially published. Displayed prices are preview estimates, not live Chase Travel quotes.
 
-## Current product direction
+The seven recognized $250-credit partner groups are:
 
-The site is being shaped around a premium editorial experience:
+- IHG Hotels & Resorts
+- Montage Hotels & Resorts
+- Pendry Hotels & Resorts
+- Omni Hotels & Resorts
+- Virgin Hotels
+- Minor Hotels
+- Pan Pacific Hotels Group
 
-- a destination-first list view
-- a secondary map view
-- a floating header that stays out of the way while browsing
-- a layout that prioritizes hotels and destinations over dashboard-style controls
+## Running locally
 
-The overall product direction is to make this feel elegant, lightweight, and browseable.
+```bash
+npm install
+npm run dev
+```
 
-## Data note
+## Building
 
-This project combines public research, mirrored catalog data, and interpretation of publicly described Chase hotel-credit partner groups.
+```bash
+npm run build
+npm run preview
+```
 
-Some parts of the experience are therefore directional rather than officially published in complete bulk form. That is an important part of the project’s context.
+## Rebuilding the dataset
 
-## Technical details
-
-Implementation notes, data pipeline details, UI behavior, engineering caveats, and rebuild instructions live in:
-
-- [AGENTS.md](/Users/agamjolly/Desktop/projects/chase/AGENTS.md)
+```bash
+node scripts_extract_public_edit.js
+node scripts_build_properties.js
+```
