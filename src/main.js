@@ -885,7 +885,7 @@ function sync() {
 }
 
 async function loadData() {
-  const response = await fetch('/data/properties.json');
+  const response = await fetch(`${import.meta.env.BASE_URL}data/properties.json`);
   if (!response.ok) {
     throw new Error(`Unable to load properties.json (${response.status})`);
   }
