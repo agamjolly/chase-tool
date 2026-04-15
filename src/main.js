@@ -9,11 +9,14 @@ app.innerHTML = `
   <div class="page-shell">
     <header class="topbar" id="topbar">
       <div class="topbar__row topbar__row--main">
-        <div class="topbar__brand">
+        <a class="topbar__brand" href="#" id="brandLink">
           <h1>The Edit Atlas</h1>
-        </div>
+        </a>
 
-        <label class="search search--hero">
+        <label class="search search--hero" id="searchLabel">
+          <button class="search__back" id="searchBack" type="button" aria-label="Clear search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+          </button>
           <span class="sr-only">Search hotels</span>
           <input id="searchInput" type="search" placeholder="Search by property, city, country, or brand" />
           <button class="search__button" id="searchButton" type="button">
@@ -23,24 +26,26 @@ app.innerHTML = `
         </label>
 
         <div class="topbar__actions">
-          <button class="refine-toggle" id="refineToggle" type="button">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="9" cy="6" r="2" fill="currentColor"/><circle cx="16" cy="12" r="2" fill="currentColor"/><circle cx="11" cy="18" r="2" fill="currentColor"/></svg>
-            Refine
-            <span class="refine-toggle__badge" id="refineBadge"></span>
-          </button>
+          <div class="refine-wrapper" id="refineWrapper">
+            <button class="refine-toggle" id="refineToggle" type="button">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="9" cy="6" r="2" fill="currentColor"/><circle cx="16" cy="12" r="2" fill="currentColor"/><circle cx="11" cy="18" r="2" fill="currentColor"/></svg>
+              Refine
+              <span class="refine-toggle__badge" id="refineBadge"></span>
+            </button>
+            <div class="refine-panel" id="refinePanel"></div>
+          </div>
           <div class="view-switch" id="viewSwitch"></div>
         </div>
-      </div>
-
-      <div class="topbar__row topbar__row--filters" id="filterDrawer">
-        <div class="filter-drawer" id="filterDrawerInner"></div>
       </div>
     </header>
 
     <main class="content">
       <section id="listView" class="content-view">
         <header class="editorial-hero">
-          <h2>Destinations</h2>
+          <button class="editorial-hero__back" id="heroBack" type="button" aria-label="Back to all hotels">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+          </button>
+          <h2>Explore</h2>
           <span class="editorial-hero__count"><span id="resultsCount">0</span> properties</span>
         </header>
         <div id="countryList" class="country-list"></div>
@@ -62,10 +67,10 @@ app.innerHTML = `
 
 const COUNTRIES_PER_PAGE = 5;
 
-const OFFER_FILTERS = [
-  { key: 'all', label: 'All hotels' },
+const COLLECTION_OPTIONS = [
   { key: 'the-edit', label: 'The Edit' },
-  { key: 'select-credit', label: '$250 credit groups' },
+  { key: 'select-credit', label: '$250 Credit Groups' },
+  { key: 'editorial', label: 'Editorial Picks' },
 ];
 
 const VIEW_MODES = [
@@ -76,7 +81,7 @@ const VIEW_MODES = [
 const state = {
   items: [],
   filtered: [],
-  offerFilter: 'all',
+  collections: new Set(['the-edit', 'select-credit', 'editorial']),
   search: '',
   draftSearch: '',
   viewMode: 'list',
@@ -86,7 +91,7 @@ const state = {
   suggestions: [],
   filtersExpanded: false,
   filters: {
-    starRating: null,
+    starRatings: new Set([5, 4.5, 4]),
     priceRange: [335, 1250],
     partnerBrands: [],
     chaseConfirmed: false,
@@ -105,8 +110,8 @@ const elements = {
   mapView: document.querySelector('#mapView'),
   refineToggle: document.querySelector('#refineToggle'),
   refineBadge: document.querySelector('#refineBadge'),
-  filterDrawer: document.querySelector('#filterDrawer'),
-  filterDrawerInner: document.querySelector('#filterDrawerInner'),
+  refineWrapper: document.querySelector('#refineWrapper'),
+  refinePanel: document.querySelector('#refinePanel'),
 };
 
 let map;
@@ -272,6 +277,8 @@ function applySearch(value) {
   elements.searchInput.value = state.draftSearch;
   state.suggestions = buildSuggestions(normalizeSearchValue(state.draftSearch));
   closeAutocomplete();
+  document.querySelector('#searchLabel').classList.toggle('has-query', Boolean(state.search));
+  document.querySelector('#heroBack').classList.toggle('is-visible', Boolean(state.search));
   sync();
 }
 
@@ -349,10 +356,27 @@ function matchesFilters(item) {
     .toLowerCase();
 
   if (state.search && !haystack.includes(state.search.toLowerCase())) return false;
-  if (state.offerFilter === 'select-credit' && !item.partnerGroup) return false;
+  // Collection filters (OR logic — item passes if it matches any selected collection)
+  if (state.collections.size < 3) {
+    let passesCollection = false;
+    if (state.collections.has('the-edit')) passesCollection = true; // all items are The Edit
+    if (state.collections.has('select-credit') && item.partnerGroup) passesCollection = true;
+    if (state.collections.has('editorial') && item.publiclyConfirmedByChase) passesCollection = true;
+    if (!passesCollection) return false;
+  }
 
   const f = state.filters;
-  if (f.starRating !== null && (item.starRating || 0) < f.starRating) return false;
+  if (!(f.starRatings.size === 3 && f.starRatings.has(5) && f.starRatings.has(4.5) && f.starRatings.has(4))) {
+    const r = item.starRating || 0;
+    let passesStars = false;
+    for (const s of f.starRatings) {
+      if (s === 5 && r === 5) passesStars = true;
+      else if (s === 4.5 && r >= 4.5 && r < 5) passesStars = true;
+      else if (s === 4 && r >= 4 && r < 4.5) passesStars = true;
+      else if (s === 3.5 && r >= 3.5 && r < 4) passesStars = true;
+    }
+    if (!passesStars) return false;
+  }
   if (item.priceValue != null && (item.priceValue < f.priceRange[0] || item.priceValue > f.priceRange[1])) return false;
   if (f.partnerBrands.length > 0 && !f.partnerBrands.includes(item.partnerGroup)) return false;
   if (f.chaseConfirmed && !item.publiclyConfirmedByChase) return false;
@@ -364,38 +388,42 @@ function matchesFilters(item) {
 function activeFilterCount() {
   const f = state.filters;
   let count = 0;
-  if (f.starRating !== null) count++;
+  const defaultStars = f.starRatings.size === 3 && f.starRatings.has(5) && f.starRatings.has(4.5) && f.starRatings.has(4);
+  if (!defaultStars) count++;
   if (f.priceRange[0] !== 335 || f.priceRange[1] !== 1250) count++;
   if (f.partnerBrands.length > 0) count++;
-  if (f.chaseConfirmed) count++;
+  if (state.collections.size < 3) count++;
   if (f.tripAdvisorMin !== null) count++;
   return count;
 }
 
 function resetFilters() {
   state.filters = {
-    starRating: null,
+    starRatings: new Set([5, 4.5, 4]),
     priceRange: [335, 1250],
     partnerBrands: [],
     chaseConfirmed: false,
     tripAdvisorMin: null,
   };
+  state.collections = new Set(['the-edit', 'select-credit', 'editorial']);
   state.filtersExpanded = false;
   renderFilterDrawer();
   sync();
 }
 
 const STAR_OPTIONS = [
-  { value: 5, label: '5★' },
-  { value: 4.5, label: '4.5+' },
-  { value: 4, label: '4+' },
-  { value: null, label: 'All' },
+  { value: 5, label: '★★★★★' },
+  { value: 4.5, label: '★★★★<span class="half-star">★</span>' },
+  { value: 4, label: '★★★★' },
+  { value: 3.5, label: '★★★<span class="half-star">★</span>' },
 ];
 
+const TA_OWL = `<svg class="ta-owl" viewBox="0 0 512 512" width="14" height="14"><path d="M175.335 281.334c0 24.483-19.853 44.336-44.336 44.336-24.484 0-44.337-19.853-44.337-44.336 0-24.484 19.853-44.337 44.337-44.337 24.483 0 44.336 19.853 44.336 44.337zm205.554-44.337c-24.48 0-44.336 19.853-44.336 44.337 0 24.483 19.855 44.336 44.336 44.336 24.481 0 44.334-19.853 44.334-44.336-.006-24.47-19.839-44.31-44.309-44.323l-.025-.01v-.004zm125.002 44.337c0 68.997-55.985 124.933-124.999 124.933a124.466 124.466 0 01-84.883-33.252l-40.006 43.527-40.025-43.576a124.45 124.45 0 01-84.908 33.3c-68.968 0-124.933-55.937-124.933-124.932A124.586 124.586 0 0146.889 189L6 144.517h90.839c96.116-65.411 222.447-65.411 318.557 0H506l-40.878 44.484a124.574 124.574 0 0140.769 92.333zm-290.31 0c0-46.695-37.858-84.55-84.55-84.55-46.691 0-84.55 37.858-84.55 84.55 0 46.691 37.859 84.55 84.55 84.55 46.692 0 84.545-37.845 84.55-84.54v-.013.003zM349.818 155.1a244.01 244.01 0 00-187.666 0C215.532 175.533 256 223.254 256 278.893c0-55.634 40.463-103.362 93.826-123.786l-.005-.006h-.003zm115.64 126.224c0-46.694-37.858-84.55-84.55-84.55-46.691 0-84.552 37.859-84.552 84.55 0 46.692 37.855 84.55 84.553 84.55 46.697 0 84.55-37.858 84.55-84.55z" fill="currentColor" fill-rule="nonzero"/></svg>`;
+
 const TA_OPTIONS = [
-  { value: 4.5, label: '4.5+' },
-  { value: 4, label: '4+' },
-  { value: null, label: 'Any' },
+  { value: 4.5, label: '<span class="ta-dots">●●●●<span class="half-dot">●</span></span>' },
+  { value: 4, label: '<span class="ta-dots">●●●●</span>' },
+  { value: null, label: 'All' },
 ];
 
 const PARTNER_BRANDS = [
@@ -417,152 +445,134 @@ function renderFilterDrawer() {
   const f = state.filters;
   const count = activeFilterCount();
 
-  // Update badge
   elements.refineBadge.textContent = count > 0 ? count : '';
   elements.refineBadge.classList.toggle('is-visible', count > 0);
-
-  // Update toggle state
   elements.refineToggle.classList.toggle('is-active', state.filtersExpanded);
-  elements.filterDrawer.classList.toggle('is-expanded', state.filtersExpanded);
+  elements.refineWrapper.classList.toggle('is-open', state.filtersExpanded);
 
   if (!state.filtersExpanded) {
-    elements.filterDrawerInner.innerHTML = '';
-
+    elements.refinePanel.innerHTML = '';
     return;
   }
 
+  const collectionPills = COLLECTION_OPTIONS.map((opt) => {
+    const active = state.collections.has(opt.key);
+    return `<button class="fp-pill ${active ? 'is-active' : ''}" data-filter="collection" data-value="${opt.key}">${escapeHtml(opt.label)}</button>`;
+  }).join('');
+
   const starPills = STAR_OPTIONS.map((opt) => {
-    const active = f.starRating === opt.value;
-    return `<button class="filter-pill ${active ? 'is-active' : ''}" data-filter="star" data-value="${opt.value}">${opt.label}</button>`;
+    const active = f.starRatings.has(opt.value);
+    return `<button class="fp-pill ${active ? 'is-active' : ''}" data-filter="star" data-value="${opt.value}">${opt.label}</button>`;
   }).join('');
 
   const taPills = TA_OPTIONS.map((opt) => {
     const active = f.tripAdvisorMin === opt.value;
-    return `<button class="filter-pill ${active ? 'is-active' : ''}" data-filter="ta" data-value="${opt.value}">${opt.label}</button>`;
+    const cls = active ? (opt.value === null ? 'is-default' : 'is-active') : '';
+    return `<button class="fp-pill ${cls}" data-filter="ta" data-value="${opt.value}">${opt.label}</button>`;
   }).join('');
 
-  const brandPills = PARTNER_BRANDS.map((brand) => {
+  const brandChecks = PARTNER_BRANDS.map((brand) => {
     const short = brand.replace(/ Hotels?.*$/, '');
-    const active = f.partnerBrands.includes(brand);
-    return `<button class="filter-pill ${active ? 'is-active' : ''}" data-filter="brand" data-value="${escapeHtml(brand)}">${escapeHtml(short)}</button>`;
+    const checked = f.partnerBrands.includes(brand);
+    return `<label class="fp-check"><input type="checkbox" ${checked ? 'checked' : ''} data-filter="brand" data-value="${escapeHtml(brand)}" />${escapeHtml(short)}</label>`;
   }).join('');
 
-  const confirmedActive = f.chaseConfirmed;
-  const priceActive = f.priceRange[0] !== 335 || f.priceRange[1] !== 1250;
-
-  const offerPills = OFFER_FILTERS.map((opt) => {
-    const active = state.offerFilter === opt.key;
-    return `<button class="filter-pill ${active ? 'is-active' : ''}" data-filter="offer" data-value="${opt.key}">${escapeHtml(opt.label)}</button>`;
-  }).join('');
-
-  elements.filterDrawerInner.innerHTML = `
-    <div class="filter-group">
-      <span class="filter-group__label">Collection</span>
-      <div class="filter-group__pills">${offerPills}</div>
+  elements.refinePanel.innerHTML = `
+    <div class="fp-section">
+      <span class="fp-label">Collection</span>
+      <div class="fp-row">${collectionPills}</div>
     </div>
-    <div class="filter-group filter-group--separator"></div>
-    <div class="filter-group">
-      <span class="filter-group__label">Stars</span>
-      <div class="filter-group__pills">${starPills}</div>
-    </div>
-    <div class="filter-group">
-      <span class="filter-group__label">Price</span>
-      <div class="filter-group__pills">
-        <div class="price-range">
-          <input type="number" class="price-range__text" min="335" max="1250" step="25" value="${f.priceRange[0]}" data-filter="price-text-min" />
-          <input type="range" class="price-range__input" min="335" max="1250" step="25" value="${f.priceRange[0]}" data-filter="price-min" />
-          <span class="price-range__sep">–</span>
-          <input type="range" class="price-range__input" min="335" max="1250" step="25" value="${f.priceRange[1]}" data-filter="price-max" />
-          <input type="number" class="price-range__text" min="335" max="1250" step="25" value="${f.priceRange[1]}" data-filter="price-text-max" />
+    <div class="fp-section">
+      <span class="fp-label">Price</span>
+      <div class="fp-price-row">
+        <span class="fp-price__wrap"><span class="fp-price__sign">$</span><input type="number" class="fp-price__field" min="335" max="1250" step="25" value="${f.priceRange[0]}" data-filter="price-text-min" /></span>
+        <div class="fp-price__sliders">
+          <input type="range" min="335" max="1250" step="25" value="${f.priceRange[0]}" data-filter="price-min" />
+          <input type="range" min="335" max="1250" step="25" value="${f.priceRange[1]}" data-filter="price-max" />
         </div>
+        <span class="fp-price__wrap"><span class="fp-price__sign">$</span><input type="number" class="fp-price__field" min="335" max="1250" step="25" value="${f.priceRange[1]}" data-filter="price-text-max" /></span>
       </div>
     </div>
-    <div class="filter-group">
-      <span class="filter-group__label">Brand</span>
-      <div class="filter-group__pills">${brandPills}</div>
+    <div class="fp-section">
+      <span class="fp-label">Star Rating</span>
+      <div class="fp-row">${starPills}</div>
     </div>
-    <div class="filter-group">
-      <span class="filter-group__label">TripAdvisor</span>
-      <div class="filter-group__pills">${taPills}</div>
+    <div class="fp-section">
+      <span class="fp-label">Brand</span>
+      <div class="fp-brands">${brandChecks}</div>
     </div>
-    <div class="filter-group">
-      <button class="filter-pill ${confirmedActive ? 'is-active' : ''}" data-filter="confirmed">Chase Confirmed</button>
+    <div class="fp-section">
+      <span class="fp-label">Tripadvisor Rating</span>
+      <div class="fp-row">${taPills}</div>
     </div>
-    ${count > 0 ? '<button class="filter-clear" data-filter="clear">Clear all</button>' : ''}
+    <div class="fp-footer">
+      <button class="fp-apply" data-filter="apply">Apply</button>
+      <button class="fp-clear" data-filter="clear">Clear all</button>
+    </div>
   `;
 
-  // Wire filter pill clicks
-  elements.filterDrawerInner.querySelectorAll('[data-filter]').forEach((el) => {
+  // Wire all filter interactions
+  elements.refinePanel.querySelectorAll('[data-filter]').forEach((el) => {
     const type = el.dataset.filter;
 
-    if (type === 'offer') {
+    if (type === 'collection') {
       el.addEventListener('click', () => {
-        state.offerFilter = el.dataset.value;
-        renderFilterDrawer();
-        sync();
+        const key = el.dataset.value;
+        if (state.collections.has(key)) state.collections.delete(key);
+        else state.collections.add(key);
+        el.classList.toggle('is-active', state.collections.has(key));
       });
     } else if (type === 'star') {
       el.addEventListener('click', () => {
-        const val = el.dataset.value === 'null' ? null : Number(el.dataset.value);
-        state.filters.starRating = state.filters.starRating === val ? null : val;
-        renderFilterDrawer();
-        sync();
+        const val = Number(el.dataset.value);
+        if (state.filters.starRatings.has(val)) state.filters.starRatings.delete(val);
+        else state.filters.starRatings.add(val);
+        el.classList.toggle('is-active', state.filters.starRatings.has(val));
       });
     } else if (type === 'ta') {
-      el.addEventListener('click', () => {
-        const val = el.dataset.value === 'null' ? null : Number(el.dataset.value);
-        state.filters.tripAdvisorMin = state.filters.tripAdvisorMin === val ? null : val;
-        renderFilterDrawer();
-        sync();
-      });
+      el.addEventListener('click', () => { state.filters.tripAdvisorMin = el.dataset.value === 'null' ? null : Number(el.dataset.value); renderFilterDrawer(); });
     } else if (type === 'brand') {
-      el.addEventListener('click', () => {
+      // Don't re-render — just update state, checkbox handles its own visual
+      el.addEventListener('change', () => {
         const brand = el.dataset.value;
-        const idx = state.filters.partnerBrands.indexOf(brand);
-        if (idx >= 0) state.filters.partnerBrands.splice(idx, 1);
-        else state.filters.partnerBrands.push(brand);
-        renderFilterDrawer();
-        sync();
+        if (el.checked) { if (!f.partnerBrands.includes(brand)) f.partnerBrands.push(brand); }
+        else { state.filters.partnerBrands = f.partnerBrands.filter((b) => b !== brand); }
       });
-    } else if (type === 'confirmed') {
-      el.addEventListener('click', () => {
-        state.filters.chaseConfirmed = !state.filters.chaseConfirmed;
-        renderFilterDrawer();
-        sync();
-      });
+    } else if (type === 'apply') {
+      el.addEventListener('click', () => { state.filtersExpanded = false; renderFilterDrawer(); sync(); });
     } else if (type === 'clear') {
       el.addEventListener('click', resetFilters);
     } else if (type === 'price-min' || type === 'price-max' || type === 'price-text-min' || type === 'price-text-max') {
+      const thisType = type;
+      const isSlider = thisType === 'price-min' || thisType === 'price-max';
       const syncPrice = () => {
-        const d = elements.filterDrawerInner;
-        const minSlider = d.querySelector('[data-filter="price-min"]');
-        const maxSlider = d.querySelector('[data-filter="price-max"]');
-        const minText = d.querySelector('[data-filter="price-text-min"]');
-        const maxText = d.querySelector('[data-filter="price-text-max"]');
-        const isSlider = type === 'price-min' || type === 'price-max';
-        let min = Number(isSlider ? minSlider.value : minText.value) || 335;
-        let max = Number(isSlider ? maxSlider.value : maxText.value) || 1250;
+        const p = elements.refinePanel;
+        const minS = p.querySelector('[data-filter="price-min"]');
+        const maxS = p.querySelector('[data-filter="price-max"]');
+        const minT = p.querySelector('[data-filter="price-text-min"]');
+        const maxT = p.querySelector('[data-filter="price-text-max"]');
+        let min = Number(isSlider ? minS.value : minT.value) || 335;
+        let max = Number(isSlider ? maxS.value : maxT.value) || 1250;
         min = Math.max(335, Math.min(1250, min));
         max = Math.max(335, Math.min(1250, max));
-        if (min > max) { if (type.includes('min')) min = max; else max = min; }
+        if (min > max) { if (thisType.includes('min')) min = max; else max = min; }
         state.filters.priceRange = [min, max];
-        minSlider.value = min;
-        maxSlider.value = max;
-        minText.value = min;
-        maxText.value = max;
+        minS.value = min; maxS.value = max; minT.value = min; maxT.value = max;
       };
-      el.addEventListener('input', syncPrice);
-      el.addEventListener('change', () => { syncPrice(); sync(); });
+      if (isSlider) {
+        el.addEventListener('input', syncPrice);
+      }
+      el.addEventListener('change', syncPrice);
     }
   });
-
 }
 
 function propertyCardMarkup(item) {
-  const tags = [
-    item.publiclyConfirmedByChase ? 'Featured by Chase' : null,
-    item.partnerGroup ? 'Official $250 partner brand' : null,
-  ].filter(Boolean);
+  const eyebrow = item.partnerGroup
+    ? escapeHtml(item.partnerGroup)
+    : item.publiclyConfirmedByChase
+      ? 'Featured by Chase'
+      : null;
 
   return `
     <button class="property-card" data-id="${item.id}">
@@ -575,10 +585,9 @@ function propertyCardMarkup(item) {
         <span class="property-card__price">${escapeHtml(priceLabel(item))}</span>
       </div>
       <div class="property-card__body">
-        <p class="property-card__eyebrow">${escapeHtml(item.partnerGroup ? 'The Edit · Partner Group' : 'The Edit')}</p>
+        ${eyebrow ? `<p class="property-card__eyebrow">${eyebrow}</p>` : ''}
         <h3>${escapeHtml(item.name)}</h3>
         <p class="property-card__location">${escapeHtml(item.location || [item.city, item.country].filter(Boolean).join(', '))}</p>
-        ${tags.length ? `<p class="property-card__note">${tags.join(' · ')}</p>` : ''}
       </div>
     </button>
   `;
@@ -630,18 +639,32 @@ function renderCountryList() {
   const loadMoreBtn = document.querySelector('#loadMoreBtn');
   if (loadMoreBtn) {
     loadMoreBtn.addEventListener('click', () => {
+      const prevCount = state.visibleCountries;
       state.visibleCountries += COUNTRIES_PER_PAGE;
       renderCountryList();
+      // Animate newly added country groups in
+      const groups = elements.countryList.querySelectorAll('.country-group');
+      groups.forEach((group, i) => {
+        if (i >= prevCount) {
+          group.classList.add('is-entering');
+          requestAnimationFrame(() => group.classList.remove('is-entering'));
+        }
+      });
     });
   }
 }
 
+function renderStars(rating) {
+  const full = Math.floor(rating);
+  const hasHalf = rating % 1 >= 0.5;
+  return '★'.repeat(full) + (hasHalf ? '<span class="half-star">★</span>' : '');
+}
+
 function popupMarkup(item) {
-  const tags = [
-    item.partnerGroup,
-    item.publiclyConfirmedByChase ? 'Chase confirmed' : 'Mirror dataset',
-    item.starRating ? `${item.starRating}-star` : null,
-  ].filter(Boolean);
+  const ratingLine = [
+    escapeHtml(priceLabel(item)),
+    item.starRating ? renderStars(item.starRating) : null,
+  ].filter(Boolean).join('  ·  ');
 
   return `
     <article class="map-hover-card">
@@ -651,31 +674,11 @@ function popupMarkup(item) {
           : ''
       }
       <div class="map-hover-card__body">
-        <p class="map-hover-card__eyebrow">${escapeHtml(item.collection || 'The Edit by Chase Travel')}</p>
         <h3>${escapeHtml(item.name)}</h3>
         <p class="map-hover-card__location">${escapeHtml(
           item.location || [item.city, item.country].filter(Boolean).join(', '),
         )}</p>
-        <div class="map-hover-card__meta">
-          <span>${escapeHtml(priceLabel(item))} nightly</span>
-          ${
-            item.tripAdvisorRating
-              ? `<span>Tripadvisor ${escapeHtml(item.tripAdvisorRating)}/5</span>`
-              : ''
-          }
-          ${
-            item.tripAdvisorCount
-              ? `<span>${escapeHtml(item.tripAdvisorCount)} reviews</span>`
-              : ''
-          }
-        </div>
-        ${
-          tags.length
-            ? `<div class="map-hover-card__tags">${tags
-                .map((tag) => `<span>${escapeHtml(tag)}</span>`)
-                .join('')}</div>`
-            : ''
-        }
+        <p class="map-hover-card__detail">${ratingLine}</p>
       </div>
     </article>
   `;
@@ -842,20 +845,62 @@ function fitMapToItems() {
   map.fitBounds(bounds, { padding: 64, maxZoom: 4.1, duration: 0 });
 }
 
+const FADE_MS = 260;
+
+function fadeOut(el) {
+  return new Promise((resolve) => {
+    el.classList.add('is-fading');
+    setTimeout(resolve, FADE_MS);
+  });
+}
+
+function fadeIn(el) {
+  el.classList.remove('is-fading');
+}
+
+function activeView() {
+  return state.viewMode === 'map' ? elements.mapView : elements.listView;
+}
+
+let firstRender = true;
+
 function renderViewMode() {
   renderViewSwitch();
   const isMap = state.viewMode === 'map';
+  const outgoing = isMap ? elements.listView : elements.mapView;
+  const incoming = isMap ? elements.mapView : elements.listView;
 
-  elements.listView.classList.toggle('content-view--hidden', isMap);
-  elements.mapView.classList.toggle('content-view--hidden', !isMap);
+  // First render: just show the right section immediately, no crossfade
+  if (firstRender) {
+    firstRender = false;
+    outgoing.classList.add('content-view--hidden');
+    incoming.classList.remove('content-view--hidden');
+    if (isMap) { ensureMap(); requestAnimationFrame(() => updateMap()); }
+    else { hideHoverPopup(); }
+    return;
+  }
+
+  outgoing.classList.add('is-fading');
   window.scrollTo(0, 0);
 
-  if (isMap) {
-    ensureMap();
-    requestAnimationFrame(() => updateMap());
-  } else {
-    hideHoverPopup();
-  }
+  setTimeout(() => {
+    outgoing.classList.add('content-view--hidden');
+    outgoing.classList.remove('is-fading');
+
+    incoming.classList.remove('content-view--hidden');
+    incoming.classList.add('is-fading');
+
+    if (isMap) {
+      ensureMap();
+      requestAnimationFrame(() => {
+        updateMap();
+        fadeIn(incoming);
+      });
+    } else {
+      hideHoverPopup();
+      requestAnimationFrame(() => fadeIn(incoming));
+    }
+  }, FADE_MS);
 }
 
 function updateMap() {
@@ -869,18 +914,28 @@ function updateMap() {
   renderMarkers();
 }
 
-function sync() {
+function sync({ animate = true } = {}) {
   renderFilterDrawer();
   state.visibleCountries = COUNTRIES_PER_PAGE;
   state.filtered = state.items.filter(matchesFilters);
   state.suggestions = buildSuggestions(normalizeSearchValue(state.draftSearch));
   renderAutocomplete();
-  renderCountryList();
-  hideHoverPopup();
-  buildClusterData(state.filtered);
 
-  if (state.viewMode === 'map') {
-    updateMap();
+  const view = activeView();
+
+  const update = () => {
+    renderCountryList();
+    hideHoverPopup();
+    buildClusterData(state.filtered);
+    if (state.viewMode === 'map') updateMap();
+    if (animate) requestAnimationFrame(() => fadeIn(view));
+  };
+
+  if (animate && view && !view.classList.contains('content-view--hidden')) {
+    view.classList.add('is-fading');
+    setTimeout(update, FADE_MS);
+  } else {
+    update();
   }
 }
 
@@ -892,12 +947,17 @@ async function loadData() {
 
   const payload = await response.json();
   state.items = payload.properties;
-  sync();
+  sync({ animate: false });
   renderViewMode();
 }
 
 elements.searchInput.addEventListener('input', (event) => {
   state.draftSearch = event.target.value.trim();
+  // Native × clear button empties the value — auto-apply to reset to homepage
+  if (!state.draftSearch && state.search) {
+    applySearch('');
+    return;
+  }
   state.autocompleteOpen = true;
   state.activeSuggestionIndex = -1;
   state.suggestions = buildSuggestions(normalizeSearchValue(state.draftSearch));
@@ -906,6 +966,19 @@ elements.searchInput.addEventListener('input', (event) => {
 
 document.querySelector('#searchButton').addEventListener('click', () => {
   applySearch(elements.searchInput.value);
+});
+
+document.querySelector('#searchBack').addEventListener('click', (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+  applySearch('');
+  elements.searchInput.value = '';
+});
+
+document.querySelector('#heroBack').addEventListener('click', () => {
+  applySearch('');
+  elements.searchInput.value = '';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
 elements.searchInput.addEventListener('focus', () => {
@@ -963,9 +1036,29 @@ document.addEventListener('click', (event) => {
 
 renderViewSwitch();
 
-elements.refineToggle.addEventListener('click', () => {
+document.querySelector('#brandLink').addEventListener('click', (e) => {
+  e.preventDefault();
+  if (state.viewMode !== 'list') {
+    state.viewMode = 'list';
+    renderViewMode();
+  } else {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+});
+
+elements.refineToggle.addEventListener('click', (e) => {
+  e.stopPropagation();
   state.filtersExpanded = !state.filtersExpanded;
   renderFilterDrawer();
+});
+
+elements.refinePanel.addEventListener('click', (e) => e.stopPropagation());
+
+document.addEventListener('click', (e) => {
+  if (state.filtersExpanded && !e.target.closest('.refine-wrapper')) {
+    state.filtersExpanded = false;
+    renderFilterDrawer();
+  }
 });
 
 let topbarCondensed = false;
