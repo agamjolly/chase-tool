@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-04-14T19:23:18.562Z",
+  "propertyCount": 1370,
+  "countries": 91,
+  "chaseConfirmedCount": 189,
+  "partnerOverlapCounts": {
+    "Minor Hotels": 11,
+    "IHG Hotels & Resorts": 117,
+    "Pan Pacific Hotels Group": 3,
+    "Montage Hotels & Resorts": 7,
+    "Omni Hotels & Resorts": 9,
+    "Pendry Hotels & Resorts": 8,
+    "Virgin Hotels": 5
+  }
+}

@@ -1,0 +1,3269 @@
+[
+  {
+    "name": "1 HOTEL BROOKLYN BRIDGE",
+    "location": "DUMBO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in New York City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city",
+      "https://www.chase.com/travel/guide/hotels/1-hotel-brooklyn-bridge-review"
+    ]
+  },
+  {
+    "name": "1 HOTEL MAYFAIR",
+    "location": "MAYFAIR",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in London | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london"
+    ]
+  },
+  {
+    "name": "1 HOTEL WEST HOLLYWOOD",
+    "location": "WEST HOLLYWOOD",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Los Angeles | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles"
+    ]
+  },
+  {
+    "name": "ACE HOTEL KYOTO",
+    "location": "NAKAGYO WARD",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Kyoto | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-kyoto",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-kyoto"
+    ]
+  },
+  {
+    "name": "ALILA MAREA BEACH RESORT",
+    "location": "ENCINITAS, CALIFORNIA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels for Surfers | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-for-surfers",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-for-surfers"
+    ]
+  },
+  {
+    "name": "ALILA NAPA VALLEY",
+    "location": "ST. HELENA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Napa and Sonoma | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-napa-and-sonoma",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-napa-and-sonoma",
+      "https://www.chase.com/travel/guide/hotels/alila-napa-valley-review"
+    ]
+  },
+  {
+    "name": "ALILA VENTANA BIG SUR",
+    "location": "BIG SUR, CALIFORNIA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Where to Stay in the U.S. to Be Near Nature | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-us-near-nature",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-us-near-nature",
+      "https://www.chase.com/travel/guide/hotels/alila-ventana-big-sur-review"
+    ]
+  },
+  {
+    "name": "ANDAZ MAUI AT WAILEA RESORT",
+    "location": "WAILEA, MAUI",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Beachfront Hotels in Hawaii | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-beachfront-hotels-in-hawaii",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-beachfront-hotels-in-hawaii"
+    ]
+  },
+  {
+    "name": "ANGUILLA",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Caribbean Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels"
+    ]
+  },
+  {
+    "name": "ANTIGUA",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Caribbean Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels"
+    ]
+  },
+  {
+    "name": "ARIA SKY SUITES",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in Las Vegas | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-las-vegas",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-las-vegas"
+    ]
+  },
+  {
+    "name": "ASHFORD CASTLE",
+    "location": "CONG, IRELAND",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Hotels Where You Can Romanticize Your Life | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-cinematic-luxury-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-cinematic-luxury-hotels",
+      "https://www.chase.com/travel/guide/hotels/best-palace-hotels"
+    ]
+  },
+  {
+    "name": "Atlantis The Royal",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Atlantis The Royal Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/atlantis-the-royal-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/atlantis-the-royal-review"
+    ]
+  },
+  {
+    "name": "AUBERGE DU SOLEIL",
+    "location": "RUTHERFORD",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Napa and Sonoma | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-napa-and-sonoma",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-napa-and-sonoma",
+      "https://www.chase.com/travel/guide/hotels/auberge-du-soleil-review"
+    ]
+  },
+  {
+    "name": "AUSTIN PROPER HOTEL",
+    "location": "DOWNTOWN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Austin | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-austin",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-austin"
+    ]
+  },
+  {
+    "name": "BALLANTYNE",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in Charlotte, North Carolina | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-charlotte",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-charlotte"
+    ]
+  },
+  {
+    "name": "BANYAN TREE HIGASHIYAMA KYOTO",
+    "location": "HIGASHIYAMA WARD",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Kyoto | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-kyoto",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-kyoto"
+    ]
+  },
+  {
+    "name": "BANYAN TREE LĂNG CÔ",
+    "location": "HUẾ",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Vietnam Beach Resorts | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-vietnam-beach-resorts",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-vietnam-beach-resorts",
+      "https://www.chase.com/travel/guide/hotels/banyan-tree-lang-co-review"
+    ]
+  },
+  {
+    "name": "BANYAN TREE MAYAKOBA",
+    "location": "PLAYA DEL CARMEN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Riviera Maya | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-mexico-riviera-maya",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-mexico-riviera-maya"
+    ]
+  },
+  {
+    "name": "BANYAN TREE SAMUI",
+    "location": "KOH SAMUI, THAILAND",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels With Chase Sapphire Reserve Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits",
+      "https://www.chase.com/travel/guide/hotels/banyan-tree-samui-review"
+    ]
+  },
+  {
+    "name": "BELLAGIO LAS VEGAS",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in Las Vegas | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-las-vegas",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-las-vegas"
+    ]
+  },
+  {
+    "name": "BLACK ROCK MOUNTAIN RESORT",
+    "location": "HEBER CITY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Park City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-park-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-park-city"
+    ]
+  },
+  {
+    "name": "BRENNERS PARK-HOTEL & SPA",
+    "location": "BADEN-BADEN, GERMANY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotel Reinventions and Renovations | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-historic-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-historic-hotels"
+    ]
+  },
+  {
+    "name": "BROWN’S HOTEL",
+    "location": "MAYFAIR",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in London | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london"
+    ]
+  },
+  {
+    "name": "BULGARI HOTEL TOKYO",
+    "location": "TOKYO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best New Hotels in Japan | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-japan",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-japan"
+    ]
+  },
+  {
+    "name": "BVLGARI HOTEL TOKYO",
+    "location": "YAESU",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Tokyo | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-tokyo",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-tokyo",
+      "https://www.chase.com/travel/guide/hotels/bvlgari-hotel-tokyo-review"
+    ]
+  },
+  {
+    "name": "BVLGARI RESORT BALI",
+    "location": "ULUWATU",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Bali | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-bali",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-bali",
+      "https://www.chase.com/travel/guide/hotels/bvlgari-resort-bali-review"
+    ]
+  },
+  {
+    "name": "Canaves Epitome",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Canaves Epitome Santorini Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/canaves-epitome-santorini-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/canaves-epitome-santorini-review"
+    ]
+  },
+  {
+    "name": "CANAVES OIA SUITES",
+    "location": "SANTORINI, GREECE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Where To Stay in the Greek Islands | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-cyclades-greece",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-cyclades-greece"
+    ]
+  },
+  {
+    "name": "CAPELLA BANGKOK",
+    "location": "SATHON",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Bangkok | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-bangkok",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-bangkok"
+    ]
+  },
+  {
+    "name": "Carmel Valley Ranch",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Carmel Valley Ranch Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/carmel-valley-ranch-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/carmel-valley-ranch-review"
+    ]
+  },
+  {
+    "name": "Caruso, A Belmond Hotel, Amalfi Coast",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Caruso, A Belmond Hotel, Amalfi Coast Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/belmond-hotel-caruso-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/belmond-hotel-caruso-review"
+    ]
+  },
+  {
+    "name": "CASA ANGELINA",
+    "location": "PRAIANO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels on the Amalfi Coast and Bay of Naples",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-amalfi-coast",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-amalfi-coast"
+    ]
+  },
+  {
+    "name": "CASA DE LAS ARTES MÉLIA COLLECTION",
+    "location": "BARRIO DE LAS LETRAS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Madrid | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid"
+    ]
+  },
+  {
+    "name": "CASTLE HILL INN",
+    "location": "NEWPORT, RHODE ISLAND",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Coastal New England Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-new-england-summer-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-new-england-summer-hotels"
+    ]
+  },
+  {
+    "name": "CHEVAL BLANC PARIS",
+    "location": "1ST ARRONDISSEMENT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Luxury Hotels in Paris | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris"
+    ]
+  },
+  {
+    "name": "CLARIDGE’S",
+    "location": "MAYFAIR",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in London | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london"
+    ]
+  },
+  {
+    "name": "COMO PARROT CAY",
+    "location": "PARROT CAY, TURKS AND CAICOS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Private Island Resorts | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-private-island-resorts",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-private-island-resorts"
+    ]
+  },
+  {
+    "name": "COMO UMA CANGGU",
+    "location": "CANGGU",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Bali | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-bali",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-bali",
+      "https://www.chase.com/travel/guide/hotels/best-hotels-for-surfers"
+    ]
+  },
+  {
+    "name": "DOWNTOWN L.A.",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "The Best Hotels in Los Angeles | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles"
+    ]
+  },
+  {
+    "name": "DOWNTOWN L.A. PROPER HOTEL",
+    "location": "DOWNTOWN L.A.",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Los Angeles | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles"
+    ]
+  },
+  {
+    "name": "Dunton Hot Springs",
+    "location": null,
+    "collection": "The Edit All-In Collection",
+    "confidence": "high",
+    "sourceTitle": "Dunton Hot Springs Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/dunton-hot-springs-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/dunton-hot-springs-review"
+    ]
+  },
+  {
+    "name": "EDEN ROC CAP CANA",
+    "location": "DOMINICAN REPUBLIC",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Caribbean Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels"
+    ]
+  },
+  {
+    "name": "EDGEWOOD TAHOE RESORT",
+    "location": "STATELINE, NEVADA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Kid-Friendly Hotels Adults Love Too | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-kid-friendly-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-kid-friendly-hotels",
+      "https://www.chase.com/travel/guide/hotels/best-lakefront-hotels-in-us"
+    ]
+  },
+  {
+    "name": "EL PALACE BARCELONA",
+    "location": "EIXAMPLE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Barcelona | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-barcelona",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-barcelona",
+      "https://www.chase.com/travel/guide/hotels/el-palace-barcelona-review"
+    ]
+  },
+  {
+    "name": "ENCHANTMENT RESORT",
+    "location": "SEDONA, ARIZONA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Where to Stay in the U.S. to Be Near Nature | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-us-near-nature",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-us-near-nature"
+    ]
+  },
+  {
+    "name": "ESTANCIA LA JOLLA HOTEL & SPA",
+    "location": "LA JOLLA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in San Diego | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-diego",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-diego"
+    ]
+  },
+  {
+    "name": "FAIRMONT AUSTIN",
+    "location": "DOWNTOWN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Austin | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-austin",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-austin"
+    ]
+  },
+  {
+    "name": "FAIRMONT CHATEAU LAKE LOUISE",
+    "location": "ALBERTA, CANADA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Kid-Friendly Hotels Adults Love Too | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-kid-friendly-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-kid-friendly-hotels"
+    ]
+  },
+  {
+    "name": "FAIRMONT EL SAN JUAN",
+    "location": "ISLA VERDE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Where To Stay in San Juan | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/san-juan-puerto-rico-hotels-for-beach-and-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/san-juan-puerto-rico-hotels-for-beach-and-city"
+    ]
+  },
+  {
+    "name": "FAIRMONT GRAND DEL MAR",
+    "location": "CARMEL VALLEY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in San Diego | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-diego",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-diego"
+    ]
+  },
+  {
+    "name": "FAIRMONT SAN FRANCISCO",
+    "location": "NOB HILL",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in San Francisco | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-francisco",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-francisco"
+    ]
+  },
+  {
+    "name": "FINCA SERENA MALLORCA",
+    "location": "MONTUÏRI, MALLORCA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in the Balearic Islands | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-balearic-islands",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-balearic-islands"
+    ]
+  },
+  {
+    "name": "FONTAINEBLEAU LAS VEGAS",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in Las Vegas | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-las-vegas",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-las-vegas"
+    ]
+  },
+  {
+    "name": "FOUQUET’S",
+    "location": "NEW YORK TRIBECA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in New York City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city"
+    ]
+  },
+  {
+    "name": "Four Seasons Astir Palace Hotel Athens",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Four Seasons Astir Palace Hotel Athens Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/four-seasons-astir-palace-hotel-athens-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/four-seasons-astir-palace-hotel-athens-review"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL AUSTIN",
+    "location": "DOWNTOWN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Austin | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-austin",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-austin"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL BANGKOK AT CHAO PHRAYA RIVER",
+    "location": "BANGKOK, THAILAND",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Design Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-design-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-design-hotels",
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-bangkok"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL CHICAGO",
+    "location": "GOLD COAST",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Chicago | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-chicago",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-chicago"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL HAMPSHIRE",
+    "location": "DOGMERSFIELD, ENGLAND",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Hotels Where You Can Romanticize Your Life | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-cinematic-luxury-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-cinematic-luxury-hotels",
+      "https://www.chase.com/travel/guide/hotels/best-unexpected-wine-country-hotels"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL ISTANBUL AT SULTANAHMET",
+    "location": "SULTANAHMET",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Istanbul Hotels With the Best Hammams | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/istanbul-hotels-with-best-hammams",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/istanbul-hotels-with-best-hammams",
+      "https://www.chase.com/travel/guide/hotels/four-seasons-hotel-istanbul-at-sultanahmet-review"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL KYOTO",
+    "location": "HIGASHIYAMA WARD",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Kyoto | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-kyoto",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-kyoto"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL LOS ANGELES AT BEVERLY HILLS",
+    "location": "BEVERLY HILLS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Los Angeles | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL MADRID",
+    "location": "CENTRO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Madrid | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL NEW ORLEANS",
+    "location": "FRENCH QUARTER",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in New Orleans | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-orleans",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-orleans"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL PHILADELPHIA AT COMCAST CENTER",
+    "location": "CENTER CITY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Philadelphia | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-philadelphia",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-philadelphia"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL SAN FRANCISCO AT EMBARCADERO",
+    "location": "FINANCIAL DISTRICT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in San Francisco | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-francisco",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-francisco"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL SEOUL",
+    "location": "JONGNO-GU",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "AMBUSH Creative Director Yoon Ahn’s Favorite Hotels In Seoul | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-seoul-yoon-ahn",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-seoul-yoon-ahn"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS HOTEL TOKYO AT MARUNOUCHI",
+    "location": "MARUNOUCHI",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Tokyo | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-tokyo",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-tokyo"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS RESORT AND RESIDENCES NAPA VALLEY",
+    "location": "CALISTOGA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Napa and Sonoma | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-napa-and-sonoma",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-napa-and-sonoma",
+      "https://www.chase.com/travel/guide/hotels/best-four-seasons-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS RESORT BALI AT SAYAN",
+    "location": "UBUD",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Bali | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-bali",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-bali",
+      "https://www.chase.com/travel/guide/hotels/four-seasons-resort-bali-sayan-review"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS RESORT BORA BORA",
+    "location": "MOTU TEHOTU, FRENCH POLYNESIA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Overwater Bungalow Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-overwater-bungalow-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-overwater-bungalow-hotels",
+      "https://www.chase.com/travel/guide/hotels/best-four-seasons-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS RESORT HUALALAI",
+    "location": "KAILUA-KONA, HAWAII",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels With Kids Clubs for Families | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-with-kids-clubs",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-kids-clubs"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS RESORT KOH SAMUI",
+    "location": "KOH SAMUI",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "7 Thailand Beach Resorts Where You Can Cure Your Winter Blues | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-thailand-beach-resorts",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-thailand-beach-resorts",
+      "https://www.chase.com/travel/guide/hotels/four-seasons-koh-samui-review"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS RESORT LOS CABOS AT COSTA PALMAS",
+    "location": "LA RIBERA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Los Cabos | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS RESORT MALLORCA AT FORMENTOR",
+    "location": "PORT DE POLLENÇA, MALLORCA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in the Balearic Islands | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-balearic-islands",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-balearic-islands"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS RESORT MARRAKECH",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Marrakech Hotels With Special Cardmember Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-marrakech-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-marrakech-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS RESORT MAUI AT WAILEA",
+    "location": "KIHEI, MAUI",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Beachfront Hotels in Hawaii | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-beachfront-hotels-in-hawaii",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-beachfront-hotels-in-hawaii"
+    ]
+  },
+  {
+    "name": "Four Seasons Resort Punta Mita",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Four Seasons Resort Punta Mita Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/four-seasons-resort-punta-mita-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/four-seasons-resort-punta-mita-review"
+    ]
+  },
+  {
+    "name": "Four Seasons Resort Rancho Encantado Santa Fe",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Four Seasons Resort Rancho Encantado Santa Fe Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/four-seasons-resort-rancho-encantado-santa-fe-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/four-seasons-resort-rancho-encantado-santa-fe-review"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS RESORT THE NAM HAI",
+    "location": "HOI AN, VIETNAM",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Four Seasons Hotels with Chase Sapphire Reserve Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-four-seasons-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-four-seasons-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "Four Seasons Resort The Nam Hai, Hoi An, Vietnam",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Four Seasons Resort The Nam Hai, Hoi An, Vietnam Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/four-seasons-resort-nam-hai-vietnam-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/four-seasons-resort-nam-hai-vietnam-review"
+    ]
+  },
+  {
+    "name": "FOUR SEASONS TENTED CAMP GOLDEN TRIANGLE",
+    "location": "CHIANG RAI, THAILAND",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Four Seasons Hotels with Chase Sapphire Reserve Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-four-seasons-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-four-seasons-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "GLENMERE MANSION",
+    "location": "CHESTER, NEW YORK",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Hotels Where You Can Romanticize Your Life | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-cinematic-luxury-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-cinematic-luxury-hotels"
+    ]
+  },
+  {
+    "name": "GRACE BAY CLUB",
+    "location": "PROVIDENCIALES, TURKS AND CAICOS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels With Chase Sapphire Reserve Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "GRAN HOTEL INGLÉS",
+    "location": "BARRIO DE LAS LETRAS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Madrid | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid"
+    ]
+  },
+  {
+    "name": "GRAND HOTEL EXCELSIOR VITTORIA",
+    "location": "SORRENTO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels on the Amalfi Coast and Bay of Naples",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-amalfi-coast",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-amalfi-coast"
+    ]
+  },
+  {
+    "name": "Grand Hotel Tremezzo",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Grand Hotel Tremezzo Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/grand-hotel-tremezzo-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/grand-hotel-tremezzo-review"
+    ]
+  },
+  {
+    "name": "GRAND HYATT DEER VALLEY",
+    "location": "DEER VALLEY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Park City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-park-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-park-city"
+    ]
+  },
+  {
+    "name": "GRAND VELAS LOS CABOS",
+    "location": "CABO SAN LUCAS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Los Cabos | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos",
+      "https://www.chase.com/travel/guide/hotels/grand-velas-los-cabos-review"
+    ]
+  },
+  {
+    "name": "HAYMARKET HOTEL",
+    "location": "WEST END",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in London | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london"
+    ]
+  },
+  {
+    "name": "HIDDEN POND",
+    "location": "KENNEBUNKPORT, MAINE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Coastal New England Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-new-england-summer-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-new-england-summer-hotels"
+    ]
+  },
+  {
+    "name": "HỘI AN",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Vietnam Beach Resorts | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-vietnam-beach-resorts",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-vietnam-beach-resorts"
+    ]
+  },
+  {
+    "name": "HONG KONG",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Kid-Friendly Hotels Adults Love Too | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-kid-friendly-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-kid-friendly-hotels"
+    ]
+  },
+  {
+    "name": "HOTEL BARDO",
+    "location": "SAVANNAH, GEORGIA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in the Southern U.S. | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-southern-us",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-southern-us"
+    ]
+  },
+  {
+    "name": "HOTEL CAFÉ ROYAL",
+    "location": "WEST END",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in London | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "Hotel Cipriani",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Hotel Cipriani, A Belmond Hotel, Venice Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/hotel-cipriani-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/hotel-cipriani-review"
+    ]
+  },
+  {
+    "name": "HOTEL DE LA VILLE",
+    "location": "ROME, ITALY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels With Chase Sapphire Reserve Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "HOTEL EDEN ROC ASCONA",
+    "location": "ASCONA, SWITZERLAND",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotel Reinventions and Renovations | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-historic-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-historic-hotels"
+    ]
+  },
+  {
+    "name": "HOTEL ESENCIA",
+    "location": "XPU HÁ",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Riviera Maya | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-mexico-riviera-maya",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-mexico-riviera-maya"
+    ]
+  },
+  {
+    "name": "Hotel Lungarno",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Hotel Lungarno Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/hotel-lungarno-florence-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/hotel-lungarno-florence-review"
+    ]
+  },
+  {
+    "name": "HÔTEL LUTETIA",
+    "location": "6TH ARRONDISSEMENT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Luxury Hotels in Paris | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris"
+    ]
+  },
+  {
+    "name": "HOTEL MAGDALENA",
+    "location": "SOUTH CONGRESS AVENUE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Austin | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-austin",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-austin",
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-southern-us"
+    ]
+  },
+  {
+    "name": "HOTEL NERI",
+    "location": "GOTHIC QUARTER",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Barcelona | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-barcelona",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-barcelona",
+      "https://www.chase.com/travel/guide/hotels/hotel-neri-review"
+    ]
+  },
+  {
+    "name": "HOTEL SANTA CATERINA",
+    "location": "AMALFI",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels on the Amalfi Coast and Bay of Naples",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-amalfi-coast",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-amalfi-coast",
+      "https://www.chase.com/travel/guide/hotels/hotel-santa-caterina-review"
+    ]
+  },
+  {
+    "name": "HOTEL VAN ZANDT",
+    "location": "RAINEY STREET HISTORIC DISTRICT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Austin | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-austin",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-austin"
+    ]
+  },
+  {
+    "name": "Hotel Villa Franca",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "HVF Villa Franca Positano Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/villa-franca-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/villa-franca-review"
+    ]
+  },
+  {
+    "name": "HVF VILLA FRANCA POSITANO",
+    "location": "POSITANO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels on the Amalfi Coast and Bay of Naples",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-amalfi-coast",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-amalfi-coast"
+    ]
+  },
+  {
+    "name": "Il Sereno Lago di Como",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Il Sereno Lago di Como Hotel Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/il-sereno-hotel-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/il-sereno-hotel-review"
+    ]
+  },
+  {
+    "name": "In and Around Miami | Chase Travel",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "low",
+    "sourceTitle": "Where to Stay In and Around Miami | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-miami",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-miami"
+    ]
+  },
+  {
+    "name": "INTERCONTINENTAL BORA BORA RESORT & THALASSO SPA",
+    "location": "MOTU PITI AAU, FRENCH POLYNESIA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Overwater Bungalow Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-overwater-bungalow-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-overwater-bungalow-hotels"
+    ]
+  },
+  {
+    "name": "InterContinental Bora Bora Resort Thalasso Spa",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "InterContinental Bora Bora Resort Thalasso Spa Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/intercontinental-bora-bora-thalasso-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/intercontinental-bora-bora-thalasso-review"
+    ]
+  },
+  {
+    "name": "INTERCONTINENTAL DOMINICA CABRITS RESORT & SPA",
+    "location": "DOMINICA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Caribbean Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels",
+      "https://www.chase.com/travel/guide/hotels/intercontinental-dominica-cabrits-resort-spa-review"
+    ]
+  },
+  {
+    "name": "INTERCONTINENTAL INDIANAPOLIS",
+    "location": "INDIANAPOLIS, INDIANA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotel Reinventions and Renovations | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-historic-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-historic-hotels"
+    ]
+  },
+  {
+    "name": "INTERCONTINENTAL SAN DIEGO",
+    "location": "DOWNTOWN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in San Diego | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-diego",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-diego"
+    ]
+  },
+  {
+    "name": "ions | Chase Travel",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "low",
+    "sourceTitle": "Best Hotel Reinventions and Renovations | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-historic-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-historic-hotels"
+    ]
+  },
+  {
+    "name": "IRVING",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in Dallas | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-dallas",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-dallas"
+    ]
+  },
+  {
+    "name": "J.K. PLACE CAPRI",
+    "location": "CAPRI",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels on the Amalfi Coast and Bay of Naples",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-amalfi-coast",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-amalfi-coast"
+    ]
+  },
+  {
+    "name": "J.K. PLACE PARIS",
+    "location": "7TH ARRONDISSEMENT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Luxury Hotels in Paris | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris"
+    ]
+  },
+  {
+    "name": "J.K. Place Roma",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "J.K. Place Roma Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/jk-place-roma-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/jk-place-roma-review"
+    ]
+  },
+  {
+    "name": "JUMEIRAH BURJ AL ARAB",
+    "location": "DUBAI, UAE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels With Chase Sapphire Reserve Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "JUMEIRAH MARSA AL ARAB DUBAI",
+    "location": "UNITED ARAB EMIRATES",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Design Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-design-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-design-hotels"
+    ]
+  },
+  {
+    "name": "Just look for the “IHG One Rewards Eligible” banner and make sure to add your hotel loyalty number at checkout.",
+    "location": "HOW TO EARN HOTEL LOYALTY POINTS WITH THE EDIT BY CHASE TRAVEL",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "How to Earn Hotel Loyalty Points | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/how-to-earn-hotel-points-with-chase-travel",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/how-to-earn-hotel-points-with-chase-travel"
+    ]
+  },
+  {
+    "name": "JW MARRIOTT ESSEX HOUSE NEW YORK",
+    "location": "MIDTOWN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Iconic New York City Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/iconic-new-york-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/iconic-new-york-hotels"
+    ]
+  },
+  {
+    "name": "KASBAH TAMADOT",
+    "location": "ASNI, MOROCCO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Design Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-design-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-design-hotels"
+    ]
+  },
+  {
+    "name": "KATIKIES SANTORINI",
+    "location": "SANTORINI, GREECE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Where To Stay in the Greek Islands | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-cyclades-greece",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-cyclades-greece",
+      "https://www.chase.com/travel/guide/hotels/katikies-santorini-review"
+    ]
+  },
+  {
+    "name": "KIMPTON FITZROY LONDON",
+    "location": "BLOOMSBURY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in London | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london"
+    ]
+  },
+  {
+    "name": "KIMPTON HOTEL FONTENOT",
+    "location": "WAREHOUSE DISTRICT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in New Orleans | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-orleans",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-orleans"
+    ]
+  },
+  {
+    "name": "KIMPTON MAA-LAI BANGKOK",
+    "location": "PATHUM WAN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Bangkok | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-bangkok",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-bangkok"
+    ]
+  },
+  {
+    "name": "KIMPTON MARGOT SYDNEY",
+    "location": "SYDNEY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best New Hotels in Australia | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-australia",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-australia"
+    ]
+  },
+  {
+    "name": "KIMPTON TRYON PARK HOTEL",
+    "location": "CHARLOTTE CENTER CITY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Charlotte, North Carolina | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-charlotte",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-charlotte"
+    ]
+  },
+  {
+    "name": "KO’A KEA RESORT",
+    "location": "KAUAI, HAWAII",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels for Surfers | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-for-surfers",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-for-surfers"
+    ]
+  },
+  {
+    "name": "L’ERMITAGE BEVERLY HILLS",
+    "location": "BEVERLY HILLS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Los Angeles | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles"
+    ]
+  },
+  {
+    "name": "LA RÉSERVE PARIS HOTEL & SPA",
+    "location": "8TH ARRONDISSEMENT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Luxury Hotels in Paris | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris"
+    ]
+  },
+  {
+    "name": "LA RÉSERVE PARIS HÔTEL AND SPA",
+    "location": "PARIS, FRANCE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels With Chase Sapphire Reserve Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "La Residencia, A Belmond Hotel, Mallorca",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "La Residencia, A Belmond Hotel, Mallorca Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/la-residencia-belmond-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/la-residencia-belmond-review"
+    ]
+  },
+  {
+    "name": "LA SULTANA MARRAKECH",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Marrakech Hotels With Special Cardmember Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-marrakech-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-marrakech-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "LAKE AUSTIN SPA RESORT",
+    "location": "LAKELAND PARK",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Austin | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-austin",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-austin"
+    ]
+  },
+  {
+    "name": "LE BARTHÉLEMY HOTEL & SPA",
+    "location": "ST. BARTS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Caribbean Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels"
+    ]
+  },
+  {
+    "name": "LOTTE NEW YORK PALACE",
+    "location": "MIDTOWN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Iconic New York City Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/iconic-new-york-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/iconic-new-york-hotels"
+    ]
+  },
+  {
+    "name": "MAISON DELANO",
+    "location": "8TH ARRONDISSEMENT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Luxury Hotels in Paris | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris"
+    ]
+  },
+  {
+    "name": "MAISON MÉTIER",
+    "location": "WAREHOUSE DISTRICT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in New Orleans | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-orleans",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-orleans"
+    ]
+  },
+  {
+    "name": "MARBELLA CLUB",
+    "location": "MARBELLA, SPAIN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels With Kids Clubs for Families | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-with-kids-clubs",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-kids-clubs"
+    ]
+  },
+  {
+    "name": "MARYLEBONE",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in London | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london"
+    ]
+  },
+  {
+    "name": "MAYFAIR HOUSE HOTEL & GARDEN",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Where to Stay In and Around Miami | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-miami",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-miami"
+    ]
+  },
+  {
+    "name": "MEADOWOOD NAPA VALLEY",
+    "location": "ST. HELENA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Napa and Sonoma | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-napa-and-sonoma",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-napa-and-sonoma",
+      "https://www.chase.com/travel/guide/hotels/meadowood-napa-valley-review"
+    ]
+  },
+  {
+    "name": "MEMBER OF THE EDIT BY CHASE TRAVEL",
+    "location": "Located down an unassuming alleyway in the medina, La Sultana offers an elevated take on traditional Moroccan accommodations, plus a location that makes it ideal for days spent exploring and nights on the town. The hotel is spread across five unique riads and features 28 rooms and suites, along with a stunning pool, two restaurants (including a top-rated fine-dining spot), a rooftop fitness center and game room, and cozy sitting areas at every turn. It’s quintessentially Moroccan and incredibly charming.",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Marrakech Hotels With Special Cardmember Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-marrakech-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-marrakech-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "MIDTOWN",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Iconic New York City Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/iconic-new-york-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/iconic-new-york-hotels"
+    ]
+  },
+  {
+    "name": "Miraflores Park, A Belmond Hotel, Lima",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Miraflores Park, A Belmond Hotel, Lima Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/miraflores-park-a-belmond-hotel",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/miraflores-park-a-belmond-hotel"
+    ]
+  },
+  {
+    "name": "MONDRIAN IBIZA",
+    "location": "CALA LLONGA, IBIZA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in the Balearic Islands | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-balearic-islands",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-balearic-islands"
+    ]
+  },
+  {
+    "name": "MONTAGE BIG SKY",
+    "location": "BIG SKY, MONTANA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Ski Hotels in the Rocky Mountains | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-ski-hotels-in-the-rocky-mountains",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-ski-hotels-in-the-rocky-mountains",
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-us-near-nature"
+    ]
+  },
+  {
+    "name": "MONTAGE DEER VALLEY",
+    "location": "DEER VALLEY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Park City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-park-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-park-city"
+    ]
+  },
+  {
+    "name": "MONTAGE HEALDSBURG",
+    "location": "HEALDSBURG",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Napa and Sonoma | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-napa-and-sonoma",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-napa-and-sonoma",
+      "https://www.chase.com/travel/guide/hotels/montage-healdsburg-review"
+    ]
+  },
+  {
+    "name": "MONTAGE LOS CABOS",
+    "location": "CABO SAN LUCAS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Los Cabos | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos",
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "Mount Nelson, A Belmond Hotel, Cape Town",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Mount Nelson, A Belmond Hotel, Cape Town Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/belmond-mount-nelson-cape-town-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/belmond-mount-nelson-cape-town-review"
+    ]
+  },
+  {
+    "name": "NAPASAI SAMUI",
+    "location": "KOH SAMUI",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "7 Thailand Beach Resorts Where You Can Cure Your Winter Blues | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-thailand-beach-resorts",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-thailand-beach-resorts"
+    ]
+  },
+  {
+    "name": "Naviva, A Four Seasons Resort",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Naviva, A Four Seasons Resort Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/naviva-a-four-seasons-resort-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/naviva-a-four-seasons-resort-review"
+    ]
+  },
+  {
+    "name": "NAVIVA®, A FOUR SEASONS RESORT",
+    "location": "PUNTA MITA, MEXICO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Four Seasons Hotels with Chase Sapphire Reserve Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-four-seasons-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-four-seasons-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "NAYARA GARDENS",
+    "location": "LA FORTUNA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Costa Rica | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-costa-rica",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-costa-rica"
+    ]
+  },
+  {
+    "name": "NAYARA SPRINGS",
+    "location": "LA FORTUNA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Costa Rica | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-costa-rica",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-costa-rica"
+    ]
+  },
+  {
+    "name": "NAYARA TENTED CAMP",
+    "location": "LA FORTUNA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Costa Rica | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-costa-rica",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-costa-rica",
+      "https://www.chase.com/travel/guide/hotels/nayara-tented-camp-review"
+    ]
+  },
+  {
+    "name": "Nekajui Peninsula Papagayo, a Ritz-Carlton Reserve",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Nekajui Peninsula Papagayo, a Ritz-Carlton Reserve | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/nekajui-a-ritz-carlton-reserve-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/nekajui-a-ritz-carlton-reserve-review"
+    ]
+  },
+  {
+    "name": "NIHI Sumba",
+    "location": null,
+    "collection": "The Edit All-In Collection",
+    "confidence": "high",
+    "sourceTitle": "NIHI Sumba Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/nihi-sumba-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/nihi-sumba-review"
+    ]
+  },
+  {
+    "name": "NINE ORCHARD",
+    "location": "LOWER EAST SIDE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in New York City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city",
+      "https://www.chase.com/travel/guide/hotels/nine-orchard-hotel-review"
+    ]
+  },
+  {
+    "name": "NOBU HOTEL CHICAGO",
+    "location": "WEST LOOP",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Chicago | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-chicago",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-chicago"
+    ]
+  },
+  {
+    "name": "NOBU HOTEL LOS CABOS",
+    "location": "CABO SAN LUCAS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Los Cabos | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos",
+      "https://www.chase.com/travel/guide/hotels/nobu-hotel-los-cabos-review"
+    ]
+  },
+  {
+    "name": "NOMAD",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in New York City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city"
+    ]
+  },
+  {
+    "name": "NOŪS Santorini",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "NOŪS Santorini, a Member of Design Hotels Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/nous-santorini-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/nous-santorini-review"
+    ]
+  },
+  {
+    "name": "One&Only Aesthesis",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "One&amp;Only Aesthesis Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/one-and-only-aesthesis-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/one-and-only-aesthesis-review"
+    ]
+  },
+  {
+    "name": "ONE&ONLY CAPE TOWN",
+    "location": "CAPE TOWN, SOUTH AFRICA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels With Chase Sapphire Reserve Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "ONE&ONLY MANDARINA",
+    "location": "RIVIERA NAYARIT, MEXICO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels With Kids Clubs for Families | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-with-kids-clubs",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-kids-clubs",
+      "https://www.chase.com/travel/guide/hotels/best-kid-friendly-hotels",
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-riviera-nayarit-mexico",
+      "https://www.chase.com/travel/guide/hotels/one-and-only-mandarina-review"
+    ]
+  },
+  {
+    "name": "ONE&ONLY PALMILLA",
+    "location": "SAN JOSÉ DEL CABO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Los Cabos | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos"
+    ]
+  },
+  {
+    "name": "One&Only The Palm",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "​​One&amp;Only The Palm Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/one-and-only-the-palm-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/one-and-only-the-palm-review"
+    ]
+  },
+  {
+    "name": "PALACIO DE LOS DUQUES GRAN MELIÁ",
+    "location": "MADRID DE LOS AUSTRIAS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Madrid | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid",
+      "https://www.chase.com/travel/guide/hotels/palacio-de-los-duques-review"
+    ]
+  },
+  {
+    "name": "PARK HYATT SEOUL",
+    "location": "GANGNAM-GU",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "AMBUSH Creative Director Yoon Ahn’s Favorite Hotels In Seoul | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-seoul-yoon-ahn",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-seoul-yoon-ahn",
+      "https://www.chase.com/travel/guide/hotels/park-hyatt-seoul-review"
+    ]
+  },
+  {
+    "name": "PASÉA HOTEL & SPA",
+    "location": "HUNTINGTON BEACH, CALIFORNIA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels for Surfers | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-for-surfers",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-for-surfers"
+    ]
+  },
+  {
+    "name": "PASSALACQUA",
+    "location": "MOLTRASIO, ITALY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Design Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-design-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-design-hotels",
+      "https://www.chase.com/travel/guide/hotels/passalacqua-review"
+    ]
+  },
+  {
+    "name": "PENDRY CHICAGO",
+    "location": "THE LOOP",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Chicago | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-chicago",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-chicago"
+    ]
+  },
+  {
+    "name": "PENDRY MANHATTAN WEST",
+    "location": "HUDSON YARDS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in New York City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city"
+    ]
+  },
+  {
+    "name": "PENDRY SAN DIEGO",
+    "location": "GASLAMP QUARTER",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in San Diego | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-diego",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-diego"
+    ]
+  },
+  {
+    "name": "PLAYA DEL CARMEN",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in Riviera Maya | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-mexico-riviera-maya",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-mexico-riviera-maya"
+    ]
+  },
+  {
+    "name": "POST RANCH INN",
+    "location": "BIG SUR, CALIFORNIA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Hotels Where You Can Romanticize Your Life | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-cinematic-luxury-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-cinematic-luxury-hotels"
+    ]
+  },
+  {
+    "name": "Pulitzer Amsterdam",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Pulitzer Amsterdam Hotel Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/pulitzer-amsterdam-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/pulitzer-amsterdam-review"
+    ]
+  },
+  {
+    "name": "PUNTA MAROMA",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in Riviera Maya | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-mexico-riviera-maya",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-mexico-riviera-maya"
+    ]
+  },
+  {
+    "name": "Raffles Bali",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Raffles Bali Hotel Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/raffles-bali-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/raffles-bali-review"
+    ]
+  },
+  {
+    "name": "RAFFLES BOSTON",
+    "location": "BACK BAY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Boston | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-boston",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-boston"
+    ]
+  },
+  {
+    "name": "Raffles Hotel Singapore",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Raffles Hotel Singapore Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/raffles-singapore-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/raffles-singapore-review"
+    ]
+  },
+  {
+    "name": "RAFFLES JAIPUR",
+    "location": "KUKAS, JAIPUR",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in India’s Golden Triangle | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-golden-triangle-india",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-golden-triangle-india",
+      "https://www.chase.com/travel/guide/hotels/best-design-hotels",
+      "https://www.chase.com/travel/guide/hotels/raffles-jaipur-review"
+    ]
+  },
+  {
+    "name": "RAFFLES LONDON AT THE OWO",
+    "location": "WHITEHALL",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in London | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london"
+    ]
+  },
+  {
+    "name": "REGENT PHU QUOC",
+    "location": "PHÚ QUỐC",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Vietnam Beach Resorts | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-vietnam-beach-resorts",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-vietnam-beach-resorts",
+      "https://www.chase.com/travel/guide/hotels/regent-phu-quoc-vietnam-review"
+    ]
+  },
+  {
+    "name": "RELAIS CHRISTINE",
+    "location": "6TH ARRONDISSEMENT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Luxury Hotels in Paris | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris"
+    ]
+  },
+  {
+    "name": "RIGGS WASHINGTON DC",
+    "location": "PENN QUARTER",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Washington, D.C. | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-washington-dc",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-washington-dc",
+      "https://www.chase.com/travel/guide/hotels/riggs-washington-dc-review"
+    ]
+  },
+  {
+    "name": "RITZ PARIS",
+    "location": "PARIS, FRANCE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Hotels Where You Can Romanticize Your Life | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-cinematic-luxury-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-cinematic-luxury-hotels",
+      "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris"
+    ]
+  },
+  {
+    "name": "RIVER NORTH",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in Chicago | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-chicago",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-chicago"
+    ]
+  },
+  {
+    "name": "ROYAL MANSOUR MARRAKECH",
+    "location": "MARRAKECH, MOROCCO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels With Kids Clubs for Families | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-with-kids-clubs",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-kids-clubs",
+      "https://www.chase.com/travel/guide/hotels/best-marrakech-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "SAINT JAMES PARIS",
+    "location": "16TH ARRONDISSEMENT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Luxury Hotels in Paris | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-luxury-hotels-in-paris"
+    ]
+  },
+  {
+    "name": "SALAMANDER WASHINGTON DC",
+    "location": "SOUTHWEST WATERFRONT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Washington, D.C. | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-washington-dc",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-washington-dc"
+    ]
+  },
+  {
+    "name": "Salterra, a Luxury Collection Resort & Spa",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Salterra, a Luxury Collection Resort &amp; Spa Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/salterra-a-luxury-collection-resort-and-spa-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/salterra-a-luxury-collection-resort-and-spa-review"
+    ]
+  },
+  {
+    "name": "SAN FRANCISCO PROPER HOTEL",
+    "location": "MID-MARKET",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in San Francisco | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-francisco",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-francisco"
+    ]
+  },
+  {
+    "name": "SANTA MONICA",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "The Best Hotels in Los Angeles | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles"
+    ]
+  },
+  {
+    "name": "SHANGRI-LA PARIS",
+    "location": "PARIS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Where to Stay in The Infatuation’s Favorite Food Cities | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-infatuations-favorite-food-cities",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-infatuations-favorite-food-cities"
+    ]
+  },
+  {
+    "name": "Shangri-La The Shard, London",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Shangri-La The Shard, London Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/shangri-la-the-shard-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/shangri-la-the-shard-review"
+    ]
+  },
+  {
+    "name": "SHANGRI-LA TOKYO",
+    "location": "MARUNOUCHI",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Tokyo | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-tokyo",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-tokyo"
+    ]
+  },
+  {
+    "name": "SINDHORN KEMPINSKI HOTEL BANGKOK",
+    "location": "PATHUM WAN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Bangkok | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-bangkok",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-bangkok"
+    ]
+  },
+  {
+    "name": "SIX SENSES CON DAO",
+    "location": "CÔN ĐẢO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Vietnam Beach Resorts | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-vietnam-beach-resorts",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-vietnam-beach-resorts"
+    ]
+  },
+  {
+    "name": "SIX SENSES CRANS-MONTANA",
+    "location": "CRANS-MONTANA, SWITZERLAND",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best European Ski Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-european-ski-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-european-ski-hotels"
+    ]
+  },
+  {
+    "name": "SIX SENSES IBIZA",
+    "location": "SANT JOAN DE LABRITJA, IBIZA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in the Balearic Islands | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-balearic-islands",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-balearic-islands",
+      "https://www.chase.com/travel/guide/hotels/six-senses-ibiza-review"
+    ]
+  },
+  {
+    "name": "SIX SENSES KYOTO",
+    "location": "HIGASHIYAMA WARD",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Kyoto | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-kyoto",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-kyoto",
+      "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-japan",
+      "https://www.chase.com/travel/guide/hotels/six-senses-kyoto-review"
+    ]
+  },
+  {
+    "name": "SIX SENSES LA SAGESSE",
+    "location": "GRENADA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Caribbean Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels"
+    ]
+  },
+  {
+    "name": "Six Senses La Sagesse Grenada",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Six Senses La Sagesse Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/six-senses-la-sagesse-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/six-senses-la-sagesse-review"
+    ]
+  },
+  {
+    "name": "SIX SENSES ROME",
+    "location": "TREVI",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best New Hotels in Rome | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-rome",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-rome",
+      "https://www.chase.com/travel/guide/hotels/six-senses-rome-review"
+    ]
+  },
+  {
+    "name": "SOFITEL FIJI RESORT AND SPA",
+    "location": "DENARAU ISLAND, FIJI",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels for Surfers | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-for-surfers",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-for-surfers"
+    ]
+  },
+  {
+    "name": "SOFITEL KIA ORA MOOREA BEACH RESORT",
+    "location": "TEAVARO, FRENCH POLYNESIA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Overwater Bungalow Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-overwater-bungalow-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-overwater-bungalow-hotels"
+    ]
+  },
+  {
+    "name": "Sofitel Legend Metropole Hanoi",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Sofitel Legend Metropole Hanoi Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/sofitel-legend-metropole-hanoi-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/sofitel-legend-metropole-hanoi-review"
+    ]
+  },
+  {
+    "name": "SOMA",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in San Francisco | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-francisco",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-francisco"
+    ]
+  },
+  {
+    "name": "SOUTHWARK",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in London | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london"
+    ]
+  },
+  {
+    "name": "SOWAKA",
+    "location": "GION DISTRICT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Kyoto | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-kyoto",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-kyoto"
+    ]
+  },
+  {
+    "name": "ST. KITTS AND NEVIS",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Caribbean Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels"
+    ]
+  },
+  {
+    "name": "STEIN ERIKSEN LODGE",
+    "location": "PARK CITY, UTAH",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Ski Hotels in the Rocky Mountains | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-ski-hotels-in-the-rocky-mountains",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-ski-hotels-in-the-rocky-mountains"
+    ]
+  },
+  {
+    "name": "STEIN ERIKSEN LODGE DEER VALLEY",
+    "location": "DEER VALLEY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Park City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-park-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-park-city"
+    ]
+  },
+  {
+    "name": "SURFERS PARADISE",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "The Best New Hotels in Australia | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-australia",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-australia"
+    ]
+  },
+  {
+    "name": "TABACÓN THERMAL RESORT & SPA",
+    "location": "LA FORTUNA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Costa Rica | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-costa-rica",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-costa-rica",
+      "https://www.chase.com/travel/guide/hotels/tabacon-resort-and-spa-costa-rica-review"
+    ]
+  },
+  {
+    "name": "TETON MOUNTAIN LODGE & SPA",
+    "location": "TETON VILLAGE, WYOMING",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Ski Hotels in the Rocky Mountains | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-ski-hotels-in-the-rocky-mountains",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-ski-hotels-in-the-rocky-mountains"
+    ]
+  },
+  {
+    "name": "THE BARCELONA EDITION",
+    "location": "CIUTAT VELLA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Barcelona | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-barcelona",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-barcelona"
+    ]
+  },
+  {
+    "name": "THE BRANDO",
+    "location": "TETIAROA ATOLL, FRENCH POLYNESIA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Private Island Resorts | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-private-island-resorts",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-private-island-resorts"
+    ]
+  },
+  {
+    "name": "THE CONNAUGHT",
+    "location": "LONDON",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Kid-Friendly Hotels Adults Love Too | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-kid-friendly-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-kid-friendly-hotels"
+    ]
+  },
+  {
+    "name": "THE COSMOPOLITAN OF LAS VEGAS",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in Las Vegas | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-las-vegas",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-las-vegas"
+    ]
+  },
+  {
+    "name": "THE EDIT ALL-IN COLLECTION",
+    "location": null,
+    "collection": "The Edit All-In Collection",
+    "confidence": "high",
+    "sourceTitle": "The Edit by Chase Travel Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/the-edit-by-chase-travel",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/the-edit-by-chase-travel"
+    ]
+  },
+  {
+    "name": "THE EDIT BOUTIQUE COLLECTION",
+    "location": null,
+    "collection": "The Edit Boutique Collection",
+    "confidence": "high",
+    "sourceTitle": "The Edit by Chase Travel Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/the-edit-by-chase-travel",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/the-edit-by-chase-travel"
+    ]
+  },
+  {
+    "name": "THE EDIT HOTEL + RESORT COLLECTION",
+    "location": null,
+    "collection": "The Edit Hotel + Resort Collection",
+    "confidence": "high",
+    "sourceTitle": "The Edit by Chase Travel Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/the-edit-by-chase-travel",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/the-edit-by-chase-travel"
+    ]
+  },
+  {
+    "name": "THE EMORY",
+    "location": "LONDON, ENGLAND",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Design Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-design-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-design-hotels",
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london"
+    ]
+  },
+  {
+    "name": "THE FIFTH AVENUE HOTEL",
+    "location": "NOMAD",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in New York City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city",
+      "https://www.chase.com/travel/guide/hotels/the-fifth-avenue-hotel-review"
+    ]
+  },
+  {
+    "name": "THE GORING",
+    "location": "BELGRAVIA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in London | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london"
+    ]
+  },
+  {
+    "name": "THE HAY‑ADAMS",
+    "location": "DOWNTOWN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Washington, D.C. | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-washington-dc",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-washington-dc"
+    ]
+  },
+  {
+    "name": "THE JOULE",
+    "location": "MAIN STREET DISTRICT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Dallas | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-dallas",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-dallas"
+    ]
+  },
+  {
+    "name": "THE KIMPTON PITTMAN HOTEL",
+    "location": "DEEP ELLUM",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Dallas | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-dallas",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-dallas"
+    ]
+  },
+  {
+    "name": "THE LAKE HOUSE CANANDAIGUA",
+    "location": "CANANDAIGUA LAKE, NEW YORK",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "8 Of The Best Lakefront Hotels in the U.S. | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-lakefront-hotels-in-us",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-lakefront-hotels-in-us"
+    ]
+  },
+  {
+    "name": "THE LAKE HOUSE ON CANANDAIGUA",
+    "location": "CANANDAIGUA, NEW YORK",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Unexpected Wine Country Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-unexpected-wine-country-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-unexpected-wine-country-hotels"
+    ]
+  },
+  {
+    "name": "THE LANESBOROUGH",
+    "location": "KNIGHTSBRIDGE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in London | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london"
+    ]
+  },
+  {
+    "name": "THE LEELA PALACE NEW DELHI",
+    "location": "CHANAKYAPURI, NEW DELHI",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in India’s Golden Triangle | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-golden-triangle-india",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-golden-triangle-india"
+    ]
+  },
+  {
+    "name": "THE LINE DC",
+    "location": "ADAMS MORGAN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Washington, D.C. | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-washington-dc",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-washington-dc"
+    ]
+  },
+  {
+    "name": "THE MADRID EDITION",
+    "location": "CENTRO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Madrid | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid",
+      "https://www.chase.com/travel/guide/hotels/madrid-edition-review"
+    ]
+  },
+  {
+    "name": "THE MAYBOURNE BEVERLY HILLS",
+    "location": "BEVERLY HILLS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Los Angeles | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-angeles"
+    ]
+  },
+  {
+    "name": "THE MIAMI BEACH EDITION",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Where to Stay In and Around Miami | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-miami",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-miami"
+    ]
+  },
+  {
+    "name": "THE NEWBURY BOSTON",
+    "location": "BACK BAY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Boston | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-boston",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-boston"
+    ]
+  },
+  {
+    "name": "THE OBEROI RAJVILAS",
+    "location": "JAGDISH COLONY, JAIPUR",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in India’s Golden Triangle | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-golden-triangle-india",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-golden-triangle-india"
+    ]
+  },
+  {
+    "name": "The Oberoi Rajvilas, Jaipur",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Oberoi Rajvilas, Jaipur Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/the-oberoi-rajvilas-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/the-oberoi-rajvilas-review"
+    ]
+  },
+  {
+    "name": "The One&Only Palmilla",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "One&amp;Only Palmilla Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/one-and-only-palmilla-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/one-and-only-palmilla-review"
+    ]
+  },
+  {
+    "name": "THE PENINSULA CHICAGO",
+    "location": "GOLD COAST",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Chicago | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-chicago",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-chicago"
+    ]
+  },
+  {
+    "name": "The Peninsula Istanbul",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Peninsula Istanbul Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/the-peninsula-istanbul-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/the-peninsula-istanbul-review"
+    ]
+  },
+  {
+    "name": "THE PENINSULA LONDON",
+    "location": "BELGRAVIA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in London | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-london",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-london"
+    ]
+  },
+  {
+    "name": "THE PENINSULA NEW YORK",
+    "location": "MIDTOWN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Iconic New York City Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/iconic-new-york-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/iconic-new-york-hotels"
+    ]
+  },
+  {
+    "name": "THE PINCH",
+    "location": "CHARLESTON, SOUTH CAROLINA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in the Southern U.S. | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-southern-us",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-southern-us"
+    ]
+  },
+  {
+    "name": "The Raffles London at The OWO",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Raffles London at The OWO Hotel Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/raffles-london-at-the-owo-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/raffles-london-at-the-owo-review"
+    ]
+  },
+  {
+    "name": "THE RANCH AT ROCK CREEK",
+    "location": "PHILIPSBURG, MONTANA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Hotels Where You Can Romanticize Your Life | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-cinematic-luxury-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-cinematic-luxury-hotels"
+    ]
+  },
+  {
+    "name": "THE RITTENHOUSE",
+    "location": "RITTENHOUSE SQUARE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Philadelphia | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-philadelphia",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-philadelphia"
+    ]
+  },
+  {
+    "name": "The Ritz Paris",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Ritz Paris Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/ritz-paris-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/ritz-paris-review"
+    ]
+  },
+  {
+    "name": "THE ROME EDITION",
+    "location": "VIA VENETO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best New Hotels in Rome | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-rome",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-rome"
+    ]
+  },
+  {
+    "name": "The Royal Mansour Marrakech",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Royal Mansour Marrakech Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/royal-mansour-marrakech-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/royal-mansour-marrakech-review"
+    ]
+  },
+  {
+    "name": "THE RYDER HOTEL",
+    "location": "CHARLESTON, SOUTH CAROLINA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in the Southern U.S. | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-southern-us",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-the-southern-us"
+    ]
+  },
+  {
+    "name": "THE SHILLA SEOUL",
+    "location": "JUNG-GU",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "AMBUSH Creative Director Yoon Ahn’s Favorite Hotels In Seoul | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-seoul-yoon-ahn",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-seoul-yoon-ahn"
+    ]
+  },
+  {
+    "name": "THE SIAM",
+    "location": "DUSIT, RIVERSIDE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Bangkok | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-bangkok",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-bangkok"
+    ]
+  },
+  {
+    "name": "The St. Regis Bahia Beach Resort, Puerto Rico,",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "St. Regis Bahia Beach Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/st-regis-bahia-beach-resort-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/st-regis-bahia-beach-resort-review"
+    ]
+  },
+  {
+    "name": "The St. Regis Bora Bora",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The St. Regis Bora Bora Resort Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/st-regis-bora-bora-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/st-regis-bora-bora-review"
+    ]
+  },
+  {
+    "name": "THE ST. REGIS DEER VALLEY",
+    "location": "DEER VALLEY",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Park City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-park-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-park-city"
+    ]
+  },
+  {
+    "name": "THE ST. REGIS NEW YORK",
+    "location": "MIDTOWN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Iconic New York City Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/iconic-new-york-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/iconic-new-york-hotels"
+    ]
+  },
+  {
+    "name": "THE ST. REGIS PUNTA MITA RESORT",
+    "location": "PUNTA DE MITA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Riviera Nayarit, Mexico | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-riviera-nayarit-mexico",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-riviera-nayarit-mexico"
+    ]
+  },
+  {
+    "name": "THE ST. REGIS SAN FRANCISCO",
+    "location": "SOMA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in San Francisco | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-francisco",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-san-francisco"
+    ]
+  },
+  {
+    "name": "The St. Regis Venice",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The St. Regis Venice Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/st-regis-venice-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/st-regis-venice-review"
+    ]
+  },
+  {
+    "name": "THE TIMES SQUARE EDITION",
+    "location": "TIMES SQUARE",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in New York City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city"
+    ]
+  },
+  {
+    "name": "THE TWELVE APOSTLES HOTEL & SPA",
+    "location": "CAPE TOWN, SOUTH AFRICA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels for Surfers | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-for-surfers",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-for-surfers"
+    ]
+  },
+  {
+    "name": "THE UPPER HOUSE",
+    "location": "HONG KONG, CHINA",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels With Chase Sapphire Reserve Benefits | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-with-chase-sapphire-reserve-benefits"
+    ]
+  },
+  {
+    "name": "THE WATERGATE HOTEL",
+    "location": "FOGGY BOTTOM",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Washington, D.C. | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-washington-dc",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-washington-dc"
+    ]
+  },
+  {
+    "name": "THE WHITBY HOTEL",
+    "location": "MIDTOWN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in New York City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city"
+    ]
+  },
+  {
+    "name": "THE WINDSOR COURT",
+    "location": "CENTRAL BUSINESS DISTRICT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in New Orleans | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-orleans",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-orleans"
+    ]
+  },
+  {
+    "name": "THOMPSON DALLAS BY HYATT",
+    "location": "MAIN STREET DISTRICT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Dallas | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-dallas",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-dallas"
+    ]
+  },
+  {
+    "name": "THOMPSON MADRID",
+    "location": "CENTRO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Madrid | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid"
+    ]
+  },
+  {
+    "name": "TSCHUGGEN GRAND HOTEL",
+    "location": "AROSA, SWITZERLAND",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best European Ski Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-european-ski-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-european-ski-hotels"
+    ]
+  },
+  {
+    "name": "TURKS & CAICOS",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Caribbean Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-caribbean-hotels"
+    ]
+  },
+  {
+    "name": "TWIN FARMS",
+    "location": "BARNARD, VERMONT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Tech-Free Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-tech-free-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-tech-free-hotels",
+      "https://www.chase.com/travel/guide/hotels/best-adults-only-hotels",
+      "https://www.chase.com/travel/guide/hotels/twin-farms-vermont-review"
+    ]
+  },
+  {
+    "name": "UNICO 20°87°",
+    "location": "AKUMAL",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Riviera Maya | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-mexico-riviera-maya",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-mexico-riviera-maya"
+    ]
+  },
+  {
+    "name": "UPPER EAST SIDE",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "medium",
+    "sourceTitle": "Best Hotels in New York City | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-york-city"
+    ]
+  },
+  {
+    "name": "URSO HOTEL & SPA",
+    "location": "CENTRO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Madrid | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-madrid"
+    ]
+  },
+  {
+    "name": "VICEROY LOS CABOS",
+    "location": "SAN JOSÉ DEL CABO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Los Cabos | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos"
+    ]
+  },
+  {
+    "name": "VICEROY RIVIERA MAYA",
+    "location": "PLAYA DEL CARMEN",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in Riviera Maya | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-mexico-riviera-maya",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-mexico-riviera-maya"
+    ]
+  },
+  {
+    "name": "VICEROY SNOWMASS",
+    "location": "SNOWMASS VILLAGE, COLORADO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Ski Hotels in the Rocky Mountains | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-ski-hotels-in-the-rocky-mountains",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-ski-hotels-in-the-rocky-mountains"
+    ]
+  },
+  {
+    "name": "VIRGIN HOTELS NEW ORLEANS",
+    "location": "WAREHOUSE DISTRICT",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best Hotels in New Orleans | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-orleans",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-new-orleans"
+    ]
+  },
+  {
+    "name": "W ROME",
+    "location": "VIA VENETO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Best New Hotels in Rome | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-rome",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-new-hotels-in-rome"
+    ]
+  },
+  {
+    "name": "Wailea Beach Resort",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Wailea Beach Resort — Marriott, Maui | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/wailea-beach-resort-marriott-maui-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/wailea-beach-resort-marriott-maui-review"
+    ]
+  },
+  {
+    "name": "WEQUASSETT RESORT AND GOLF CLUB",
+    "location": "HARWICH, MASSACHUSETTS",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Coastal New England Hotels | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-new-england-summer-hotels",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-new-england-summer-hotels"
+    ]
+  },
+  {
+    "name": "Wymara Resort + Villas",
+    "location": null,
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "Wymara Resort + Villas Review | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/wymara-resort-and-villas-review",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/wymara-resort-and-villas-review"
+    ]
+  },
+  {
+    "name": "ZADÚN, A RITZ-CARLTON RESERVE",
+    "location": "SAN JOSÉ DEL CABO",
+    "collection": "The Edit by Chase Travel",
+    "confidence": "high",
+    "sourceTitle": "The Best Hotels in Los Cabos | Chase Travel",
+    "sourceUrl": "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos",
+    "sources": [
+      "https://www.chase.com/travel/guide/hotels/best-hotels-in-los-cabos"
+    ]
+  }
+]

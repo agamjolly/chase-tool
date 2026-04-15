@@ -1,0 +1,25 @@
+{
+  "name": "chase",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "html-to-text": "^9.0.5",
+    "maplibre-gl": "^5.10.0",
+    "p-limit": "^7.3.0",
+    "playwright": "^1.59.1",
+    "supercluster": "^8.0.1"
+  },
+  "devDependencies": {
+    "vite": "^6.4.1"
+  }
+}
